@@ -104,19 +104,8 @@ copyright = "CM-XO © 2025."
 # Social Settings
 [[params.social]]
 title = "Linkedin"
-url = "https://www.twitter.com/"
-[[params.social]]
-title = "Facebook"
-url = "https://facebook.com/"
-[[params.social]]
-title = "YouTube"
-url = "https://www.youtube.com/"
-[[params.social]]
-title = "Dribbble"
-url = "https://www.dribbble.com/"
-[[params.social]]
-title = "Instagram"
-url = "https://www.instagram.com/"
+url = "https://www.linkedin.com/in/crisdevbr/"
+
 
 # Sitemap Settings
 [sitemap]
