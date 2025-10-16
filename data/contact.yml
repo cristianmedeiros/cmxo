@@ -1,0 +1,43 @@
+### Sections content configuration file
+### Here you can find all content in all pre-build sections
+
+### Contact [ contactSection ]
+contact:
+  enable: true
+  title: "This webinar is everything you need in life & more."
+  description: <p>Together had said given day spirit. Land years upon, created winged all. Dry, days for form dry moved gathering meat light whose abundantly fowl said our. Have green. Cattle. Called i that waters dry one said firmament his after their night. Likeness.<br><br>A divide rule that second said Two deep. Darkness made great over moving together is us that unto heaven seed under set stars lesser had to Fruit so open, of there isn’t, whose saw. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dusmod tempor incididunt ut labore et dolore magna aliqua. Darkness made great over moving together is us that unto heaven seed under set stars.</p>
+  contactInformation:
+    - title: "Email us"
+      text: "<a href='mailto:'>name@domain.com</a>"
+
+    - title: "Call Us"
+      text: "+6192113747"
+
+    - title: "Visit Us"
+      text: "Melbourne, Australia"
+
+### Map [ mapSection ]
+map:
+  enable: true
+  latitude: "-37.8602828"
+  longitude: "145.079616"
+  iconLocationImage: "/images/icon-location.png"
+  titleIconLocation: "Melbourne, Australia"
+  colorMap: "#2d313f"
+  saturationMap: -150
+  brightnessMap: 5
+  mapZoom: 10
+  informationBoxTitle: "CONTACT INFORMATION."
+  informationBox: 
+    - title: "Melbourne, Australia"
+      icon: "fas fa-location-arrow"
+    
+    - title: "765-302-2878"
+      icon: "fas fa-phone-alt"
+
+    - title: "name@domain.com"
+      icon: "fas fa-paper-plane"
+
+    - title: "mycompanyname.com"
+      icon: "fas fa-globe"
+      

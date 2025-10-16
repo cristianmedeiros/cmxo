@@ -1,0 +1,201 @@
+### Sections content configuration file
+### Here you can find all content in all pre-build sections
+
+### Started [ startedSection ]
+started:
+  enable: true
+  profileImage: "/images/profile-2.jpg"
+  title: "Solutions for Your Business Made Exceptionally Easy."
+  text: "<p>God. There air meat. Behold him fourth let. Fowl fourth his years our a don't you'll his third own he very created won't tree form there created.</p><p>Together had said given day spirit. Land years upon, created winged all. Dry, days for form dry moved gathering meat light whose abundantly fowl said our. Have green. Cattle. Called i that waters dry one said firmament his after their night. Likeness.</p><p>A divide rule that second said Two deep. Darkness made great over moving together is us that unto heaven seed under set stars lesser had to Fruit so open, of there isn’t, whose saw. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dusmod tempor incididunt ut labore et dolore magna aliqua. Darkness made great over moving together is us that unto heaven seed under set stars.</p>"
+  buttonText: "Get Started"
+  buttonLink: "/contact-v3/"
+
+### Services [ ServicesSection ]
+services:
+  enable: true
+  title: "Como Podemos Trabalhar Juntos"
+  text: "<p>Cada empresa possui uma jornada única e desafios específicos para cada estágio de crescimento. Por isso, temos um modelo de parceria que se adapta à sua necessidade real e ao seu momento de negócio. Seja para uma orientação estratégica de alto nível, uma liderança 'hands-on' contínua ou uma intervenção intensiva para resolver um problema crítico, existe um formato de engajamento desenhado para gerar o máximo impacto com o investimento certo.<p>"
+  items:
+    - title: "Tech Advisor"
+      icon: "fa-solid fa-brain"
+      text: "<p>Ideal para o CEO, fundador ou conselho que precisa de um parceiro de confiança para validar decisões de alto impacto, alinhar a visão de tecnologia com a estratégia de negócio e se preparar para o futuro.</p><p>Este é um modelo de parceria de alto nível, focado em estratégia e governança. Atuo como seu conselheiro técnico, um 'sparring partner' para as grandes questões que definem o rumo da empresa. Não estou no dia a dia da operação, mas sim ao seu lado nas reuniões de diretoria, nas conversas com difíceis e no planejamento de longo prazo.</p>"
+      list:
+        - title: "Validação de Roadmaps"
+          icon: "fa-solid fa-check"
+          text: "Análise crítica do seu plano de tecnologia para garantir que ele seja viável, escalável e alinhado aos objetivos comerciais."
+        - title: "Preparação para M&A e Investimentos"
+          icon: "fa-solid fa-check"
+          text: "Suporte em processos de due diligence, construindo a confiança dos investidores na sua tese tecnológica."
+        - title: "Mentoria de Liderança"
+          icon: "fa-solid fa-check"
+          text: "Apoio no desenvolvimento de seus líderes técnicos internos, como Heads de Engenharia ou Tech Leads."
+        - title: "Análise de Risco e Oportunidade"
+          icon: "fa-solid fa-check"
+          text: "Avaliação de novas tecnologias, plataformas ou estratégias de arquitetura para evitar erros caros e identificar vantagens competitivas."
+
+    
+    - title: "Fractional CTO (ou CTO as a Service)"
+      icon: "fa-solid fa-pizza"
+      text: "<p>Ideal para Startups, Scale-ups e PMEs em crescimento que precisam de uma liderança técnica experiente e contínua, mas ainda não têm a necessidade ou o orçamento para um CTO em tempo integral.</p><p>Não sou um consultor externo; atuo como seu CTO em tempo parcial, totalmente integrado à sua equipe de liderança. Participo das cerimônias, lidero os rituais de engenharia, realizo 1:1s com o time e sou o responsável por traduzir a estratégia da empresa em um plano de execução técnico e realista.</p>"
+     
+    - title: "Interim CTO"
+      icon: "fa-solid fa-clock"
+      text: "<p>Ideal para empresas que enfrentam um momento de alta complexidade, como a saída inesperada de um líder técnico, uma migração de plataforma de alto risco, uma reorganização interna ou a necessidade de integrar tecnologias após uma fusão ou aquisição.</p><p>Uma imersão completa e intensiva para garantir a continuidade e o sucesso em momentos de transformação. Assumo a liderança tecnológica em tempo integral por um período, com um mandato claro para estabilizar a operação, executar um projeto crítico e, se necessário, liderar a busca pelo seu próximo CTO permanente.</p>"
+
+
+     
+    # - title: "Conton1 Creation"
+    #   icon: "fa-solid fa-pencil"
+    #   text: "<p>We don't want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos.</p>"
+     
+    # - title: "Photography1"
+    #   icon: "fa-solid fa-camera"
+    #   text: "<p>We don't want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos.</p>"
+     
+    # - title: "Business solution1"
+
+### Pricing [ pricingSection ]
+pricing:
+  enable: true
+  title: "Choose a Plan That's Right for Your Business"
+  text: "<p>Behold him fourth let. Fowl fourth his years our a don't you'll his third own he very created won't tree form there created.</p>"
+  items:
+    - title: "Starter"
+      text: "<p>For teams that need to create sales plans with confidence.</p>"
+      price: "$0/MO"
+      buttonText: "Buy now"
+      buttonLink: "/contact-v1/"
+      list:
+      - title: "Ad management"
+        icon: "fa-solid fa-check"
+
+      - title: "Live chat"
+        icon: "fa-solid fa-check"
+
+      - title: "Conversational bots"
+        icon: "fa-solid fa-check"
+
+      - title: "Forms"
+        icon: "fa-solid fa-check"
+
+      - title: "Pop-up forms"
+        icon: "fa-solid fa-check"
+
+      - title: "Contact website activity"
+        icon: "fa-solid fa-check"
+
+      - title: "List segmentation"
+        icon: "fa-solid fa-check"
+
+      - title: "Email marketing"
+        icon: "fa-solid fa-check"
+
+      - title: "Ad retargeting"
+        icon: "fa-solid fa-check"
+
+    - title: "Professional"
+      text: "<p>For teams that need to create sales plans with confidence.</p>"
+      price: "$1200/MO"
+      buttonText: "Buy now"
+      buttonLink: "/contact-v2/"
+      list:
+      - title: "Marketing automation"
+        icon: "fa-solid fa-check"
+
+      - title: "Smart content"
+        icon: "fa-solid fa-check"
+
+      - title: "Content creation tools"
+        icon: "fa-solid fa-check"
+
+      - title: "SEO & content strategy"
+        icon: "fa-solid fa-check"
+
+      - title: "Social media"
+        icon: "fa-solid fa-check"
+
+      - title: "A/B testing"
+        icon: "fa-solid fa-check"
+
+      - title: "Landing pages"
+        icon: "fa-solid fa-check"
+
+      - title: "Calls-to-action"
+        icon: "fa-solid fa-check"
+
+      - title: "Video hosting"
+        icon: "fa-solid fa-check"
+
+    - title: "Enterprise"
+      text: "<p>For teams that need to create sales plans with confidence.</p>"
+      price: "$3200/MO"
+      buttonText: "Buy now"
+      buttonLink: "/contact-v3/"
+      list:
+      - title: "Content partitioning"
+        icon: "fa-solid fa-check"
+
+      - title: "Hierarchical teams"
+        icon: "fa-solid fa-check"
+
+      - title: "Single sign-on"
+        icon: "fa-solid fa-check"
+
+      - title: "Social permissions"
+        icon: "fa-solid fa-check"
+
+      - title: "Additional domains"
+        icon: "fa-solid fa-check"
+
+      - title: "Email send frequency cap"
+        icon: "fa-solid fa-check"
+
+      - title: "Calculated properties"
+        icon: "fa-solid fa-check"
+
+      - title: "CMS membership"
+        icon: "fa-solid fa-check"
+
+      - title: "Filtered analytics view"
+        icon: "fa-solid fa-check"
+
+### Action Image [ actionImageSection ]
+actionImage:
+  enable: true
+  profileImage: "/images/team-6.jpg"
+  title: "We are here to guide you whenever you need."
+  text: "<p>Living, i divided was be every had. Him god. Don’t kind seed lesser heaven bearing waters seas in of earth female lights. Morning fruit may. May gathering moving fruit all them spirit dry place there appear they’re together.</p><p>Created, likeness bring which in stars herb a is give you’ll it life you’ll. Whose evening. Spirit subdue two don’t. Living, i divided was be every had. Him god. Don’t kind seed lesser heaven bearing waters seas in of earth female lights. Morning fruit may. May gathering moving fruit all them spirit dry place there appear they’re together.</p><p>A divide rule that second said Two deep. Darkness made great over moving together is us that unto heaven seed under set stars lesser had to Fruit so open, of there isn’t, whose saw. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+  buttonText: "Get Started"
+  buttonLink: "/contact-v3/"
+
+### Action Text [ actionTextSection ]
+actionText:
+  enable: true
+  title: "Não quer esperar para resolver seus desafios?"
+  text: "<p>Enquanto os artigos estão sendo preparados, meus serviços de <strong>CTO as a Service</strong> já estão disponíveis para ajudar sua empresa a crescer. Se você precisa de uma liderança estratégica para guiar seu time, otimizar seus processos ou preparar sua tecnologia para o próximo nível, eu posso ajudar.</p>"
+  buttonText: "Vamos conversar"
+  buttonLink: "/contato/"
+
+### FAQ [ faqSection ]
+faq:
+  enable: true
+  title: "Frequently Asked Questions"
+  text: "<p>Answers to all of your frequently asked pricing questions.</p>"
+  accordion: 
+    - title: "How does the payment process work?"
+      text: "<p>Leverage the intuitive super awesome software that saves you time and will help grow your business.</p>"
+
+    - title: "How much does a website cost?"
+      text: "<p>Leverage the intuitive super awesome software that saves you time and will help grow your business.</p>"
+
+    - title: "What kind of businesses do you work with?"
+      text: "<p>Leverage the intuitive super awesome software that saves you time and will help grow your business.</p>"
+
+    - title: "Who will I work with during the project?"
+      text: "<p>Leverage the intuitive super awesome software that saves you time and will help grow your business.</p>"
+
+    - title: "What platform do you build your websites on?"
+      text: "<p>Leverage the intuitive super awesome software that saves you time and will help grow your business.</p>"
+
+    - title: "Can you help me source photos for my website?"
+      text: "<p>Leverage the intuitive super awesome software that saves you time and will help grow your business.</p>"

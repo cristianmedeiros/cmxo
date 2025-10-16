@@ -1,0 +1,123 @@
+{{ $delay := .Params.duration }}
+{{ $arrows := .Params.arrows }}
+
+{{ with .Site.Data.home.content_home_slider }}
+{{ if .enable }}
+
+{{ "<!-- Slider Section -->" | safeHTML }}
+<section class="slider-section-home">
+
+    <div class="rev_slider_wrapper">
+ 
+        <div id="content_slider" class="rev_slider fullwidthabanner" data-duration="{{ $delay }}" data-arrows="{{ $arrows }}" data-version="5.4.5" style="display:none">
+     
+            <ul>
+
+                {{ range $index, $val := .slides }}
+
+                <!-- Slide Structure -->
+                <li data-transition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="1000" data-rotate="0"  data-saveperformance="off"  data-title="{{ .title }}">
+            
+
+                    {{ if eq .type "image" }}
+                    <!-- Image Background -->
+                    <img src="{{ .image | absURL }}" alt="{{ .title }}" data-bgposition="center center" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina style="opacity: 0.2;">
+                    {{ end }}
+
+                    {{ if eq .type "video" }}
+                    <!-- Video Background -->
+                    <div class="tp-caption tp-resizeme fullscreenvideo tp-videolayer"
+                    id="slide-{{ add $index 3000 }}-layer-video"
+                    data-x="0"
+                    data-y="0"
+                    data-type="video"
+                    data-responsive_offset="on"
+                    data-frames='[{"delay": 500, "speed": 300, "from": "opacity: 0", "to": "opacity: 1"},
+                    {"delay": "wait", "speed": 300, "to": "opacity: 0"}]'
+    
+                    {{ if .vimeo }}
+                    data-vimeoid="{{ .vimeo }}"
+                    data-videoattributes="title=0&byline=0&portrait=0&api=1"
+                    {{ end }}
+                    {{ if .youtube }}
+                    data-ytid="{{ .youtube }}"
+                    data-videoattributes="version=3&enablejsapi=1&html5=1&hd=1&wmode=opaque&showinfo=0&rel=0&fs=0&controls=0"
+                    {{ end }}
+                    {{ if .html5 }}
+                    data-videomp4="{{ .html5 }}"
+                    {{ end }}
+                    data-videowidth="100%"
+                    data-videoheight="100%"
+                    data-videoloop="true"
+                    data-forceCover="1"
+                    data-aspectratio="16:9"
+                    data-paddingtop="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-autoplay="on"
+                    data-nextslideatend="true"
+                    data-volume="0"
+                    data-forcerewind="on"
+                    style="z-index: 5;pointer-events:none;">
+                    </div>
+                    {{ end }}
+
+                    <!-- Slide Title -->
+                    <div class="tp-caption tp-resizeme"
+                    
+                        data-frames='[{"delay": 300, "speed": 300, "from": "opacity: 0", "to": "opacity: 1"},
+                                    {"delay": "wait", "speed": 300, "to": "opacity: 0"}]'
+
+                        data-x="left"
+                        data-y="center"
+                        data-voffset="-80"
+                        data-hoffset="66"
+                        style="z-index:5;font-family:'Dosis';font-size: 30px;font-weight: 300;letter-spacing: 1px;line-height: 35px;white-space: nowrap;"                
+                    >{{ .title | safeHTML }}</div>
+
+                    <div class="tp-caption tp-resizeme"
+                    
+                        data-frames='[{"delay": 300, "speed": 300, "from": "opacity: 0", "to": "opacity: 1"},
+                                    {"delay": "wait", "speed": 300, "to": "opacity: 0"}]'
+
+                        data-x="left"
+                        data-y="center"
+                        data-voffset="25"
+                        data-hoffset="66"
+                        style="z-index:5;font-family:'Source Sans 3';font-size: 15px;font-weight: 300;line-height: 28px;"                
+                        >{{ .description | safeHTML }}</div>
+
+                        <div class="tp-caption tp-resizeme rev-btn"
+                            data-frames='[{"delay": 300, "speed": 300, "from": "opacity: 0", "to": "opacity: 1"},
+                                        {"delay": "wait", "speed": 300, "to": "opacity: 0"}]'
+                            
+                            data-x="left"
+                            data-y="center"
+                            data-voffset="120"  
+                            data-hoffset="66"
+                            style="z-index: 7; font-family: Dosis; text-transform: uppercase; cursor: pointer; outline: none; box-shadow: none; box-sizing: border-box; height: auto; width: auto; color: rgb(255, 255, 255); text-decoration: none; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: inherit; line-height: 25px; letter-spacing: 2px; font-weight: 300; font-size: 11px; border-color: rgb(0, 0, 0); color: #fff; background-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; padding: 8px 23px;"
+                            data-actions='[{
+                                "event": "click",
+                                "action": "simplelink",
+                                "target": "_self",
+                                "url": "{{ .buttonLink | absLangURL }}"
+                            }]'
+                        >
+                        {{ .buttonText }}
+                    </div>
+
+                </li>
+
+                {{ end }}
+
+            </ul>
+     
+        </div>
+     
+    </div>
+
+</section>
+
+{{ end }}
+{{ end }}

@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+{{ $page := . }}
+
+{{ range $section := $.Params.sections }}
+
+{{ $partial := printf "%s.html" $section }}
+  {{ if templates.Exists (printf "partials/%s.html" $section) }}
+    {{ partial $partial $page }}
+  {{ end }}
+
+{{ end }}
+
+{{ end }}

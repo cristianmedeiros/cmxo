@@ -1,0 +1,144 @@
+/*
+*	Glacier - Clean & Minimal Portfolio Hugo Theme
+*	Version: 1.0.4
+*	Author: Mountain-Themes
+*	Author URL: https://themeforest.net/user/mountain-themes
+*	Glacier © 2025. Design & Coded by Mountain-Themes.
+*/
+
+/* SETTINGS VARIABLES
+	- Colors
+	- Fonts & Fonts Size 
+	- Buttons & Forms 
+	- Menu
+	- Portfolio
+	- Slider
+	- Elements
+	- Sidebar
+	- Google Map
+	- Contact
+	- Footer
+*/
+
+/* Colors */
+$default_color: #000;
+$links_color: #000;
+$links_hover_color: #000;
+
+/* Fonts & Fonts Size */
+$default_font: "Source Sans 3", sans-serif;
+$heading_font: "Dosis", sans-serif;
+$heading_font_weight: 600;
+$heading_letter_spacing: 2px;
+
+$default_size: 15px;
+
+/* Buttons & Forms */
+$button_font: "Dosis", sans-serif;
+$button_font_size: 11px;
+$button_text_color: #fff;
+$button_bg_color: #000000;
+$placeholder_color: #8e8e8e;
+
+/* Menu */
+$menu_font: "Dosis", sans-serif;
+// $menu_font_size: 12px;
+$menu_font_size: 17px;
+$menu_letter_spacing: 2px;
+$menu_text_transform: uppercase;
+
+$menu_color: #000;
+$menu_border_color_hover: #000000;
+
+$submenu_font_size: 11px;
+$submenu_color: #fff;
+$submenu_bg_color: #000000;
+
+/* Portfolio */
+$classic_style_overlay_bg_color: rgba(255, 255, 255, 0.9);
+$classic_style_title_color: #000;
+$classic_style_title_font: "Dosis", sans-serif;
+$classic_style_title_font_size: 1.2em;
+$classic_style_title_letter_spacing: 2px;
+$classic_style_title_text_transform: uppercase;
+
+$minimal_style_overlay_bg_color: rgba(255, 255, 255, 0.9);
+$minimal_style_title_color: #000;
+$minimal_style_title_font: "Dosis", sans-serif;
+$minimal_style_title_font_size: 1.2em;
+$minimal_style_title_letter_spacing: 2px;
+$minimal_style_title_text_transform: uppercase;
+
+$alternative_style_title_color: #000;
+$alternative_style_title_font: "Dosis", sans-serif;
+$alternative_style_title_font_size: 1.2em;
+$alternative_style_title_letter_spacing: 2px;
+$alternative_style_title_text_transform: uppercase;
+
+$creative_style_overlay_bg_color: rgb(255, 255, 255);
+$creative_style_title_color: #000000;
+$creative_style_title_font: "Dosis", sans-serif;
+$creative_style_title_font_size: 1.2em;
+$creative_style_title_letter_spacing: 2px;
+$creative_style_title_text_transform: uppercase;
+
+$filter_font: "Dosis", sans-serif;
+$filter_font_size: 12px;
+$filter_letter_spacing: 2px;
+$filter_text_transform: uppercase;
+
+$gallery_font: "Dosis", sans-serif;
+$gallery_font_size: 21px;
+$gallery_letter_spacing: 2px;
+$gallery_text_transform: uppercase;
+
+/* Slider */
+$slider_bg_color: rgba(0, 0, 0, 0.5);
+$slider_bg_hover_color: #000;
+
+$slider_button_text_color: #ffffff;
+$slider_button_text_hover_color: #000000;
+$slider_button_border_color: #000;
+$slider_button_bg_color: #000000;
+
+/* Elements */
+$experience_color_icon: #000;
+
+$skillbar_color_line: #eaeaea;
+$skillbar_color_active_line: #000000;
+$skillbar_line_height: 2px;
+
+$services_color_icon: #000000;
+
+$pricing_box_icon_color: #000000;
+$pricing_box_border_color: #000000;
+$pricing_box_button_font: "Dosis", sans-serif;
+$pricing_box_button_font_size: 11px;
+$pricing_box_button_text_color: #fff;
+$pricing_box_button_bg_color: #000000;
+
+$accordion_box_color_border: #ededed;
+$accordion_box_bg_button_color: #000;
+$accordion_box_icon_color: #ffffff;
+
+$blog_slider_post_format_color_caption: rgba(0, 0, 0, 0.5);
+$blog_slider_post_format_bg_color_arrow: #000000;
+
+/* Sidebar */
+$input_border_color: #000;
+
+$tags_color_border: #000;
+$tags_color_text: #000;
+$tags_color_hover_text: #fff;
+$tags_bg_hover_color: #000;
+
+/* Google Map */
+$zoom_icon_bg_map: rgba(0, 0, 0, 0.7);
+$zoom_hover_icon_bg_map: #000000;
+
+/* Contact */
+$input_border_contact: 1px solid #EDEDED;
+
+/* Footer */
+$footer_bg: #f8fafc;
+$footer_font_social_links: "Dosis", sans-serif;

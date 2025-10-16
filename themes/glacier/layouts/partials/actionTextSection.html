@@ -1,0 +1,18 @@
+{{ with .Site.Data.pages.actionText}}
+{{ if .enable }}
+
+{{ "<!-- Action Text Section -->" | safeHTML }}
+<div class="action-text-section">
+  <div class="container">
+    <div class="row text-center">
+        <div class="col-md-12">
+                <h2>{{ .title }}</h2>
+                {{ .text | safeHTML }}
+                <a href="{{ .buttonLink | absLangURL }}" class="action-button" rel="noopener">{{ .buttonText }} <i class="fa-solid fa-angle-right"></i></a>
+        </div>
+    </div>
+  </div>
+</div>
+
+{{ end }}
+{{ end }}

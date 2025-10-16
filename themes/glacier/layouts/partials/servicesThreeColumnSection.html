@@ -1,0 +1,38 @@
+{{ $noPadding := .Params.noPadding }}
+
+{{ with .Site.Data.pages.services}}
+{{ if .enable }}
+
+{{ "<!-- Services Section -->" | safeHTML }}
+<div class="services-section {{ if eq $noPadding "show" }} pt-0 pb-0 {{ end }}">
+  <div class="container">
+    <div class="row gy-5">
+            <div class="started-description">
+                <h2>{{ .title }}</h2>
+                {{ .text | safeHTML }}
+            </div>
+            {{ range .items }}
+            <div class="col-md-4">
+            <div class="services-servicos-box">
+                <div class="icon"><i aria-hidden="true" class="{{ .icon }}"></i></div>
+                <h4>{{ .title }}</h4>
+                {{ .text | safeHTML }}
+                <div class="card-body">
+                    <ul>
+                        {{ range .list }}
+                        <li><i aria-hidden="true" class="{{ .icon }}"></i> {{ .title }}<p>{{.text}}</p></li>
+                        {{ end }}
+                    </ul>
+                    <!-- <h3>{{ .price }}</h3> -->
+                    <!-- <a href="{{ .buttonLink | absLangURL }}" class="pricing-button" rel="noopener">{{ .buttonText }}</a> -->
+                </div>                
+            </div>
+            </div>
+            {{ end }}
+
+    </div>
+  </div>
+</div>
+
+{{ end }}
+{{ end }}

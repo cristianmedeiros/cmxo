@@ -1,0 +1,30 @@
+{{ $partnersDescription := .Params.partnersDescription }}
+
+{{ "<!-- Partners Description Section -->" | safeHTML }}
+<section class="partners-section">
+
+    <div class="container">
+        <div class="row">
+            {{ with .Site.Data.about.partnersDescription }}
+            {{ if .enable }}
+            {{ if eq $partnersDescription "show" }}
+            <div class="col-md-12">
+                <div class="partners-description-box">
+                <h5>{{ .title }}</h5>
+                {{ .description | safeHTML }}
+                </div>
+            </div>
+            {{ end }}
+                {{ range .items }}
+                <div class="col-md-3">
+                <div class="partners-box">
+                    <!-- <a href="{{ .url }}" target="_blank"><img src="{{ .image | absURL }}" width="250px" height="100"></a> -->
+                    <img src="{{ .image | absURL }}" width="250px" height="100">
+                </div>
+                </div>
+                {{ end }}
+    
+            {{ end }}
+            {{ end }}
+
+</section>

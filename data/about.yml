@@ -1,0 +1,242 @@
+### Sections content configuration file
+### Here you can find all content in all pre-build sections
+
+### Experience [ experienceSection ]
+experience:
+  enable: true
+  items:
+    - icon: "fas fa-briefcase"
+      title: "Projects"
+      num: "58"
+
+    - icon: "fas fa-coffee"
+      title: "Coffees"
+      num: "260"
+
+    - icon: "far fa-smile"
+      title: "Clients"
+      num: "420"
+
+    - icon: "fas fa-trophy"
+      title: "Contests won"
+      num: "32"
+
+### About Me [ AboutMeSection ]
+aboutMe:
+  enable: true
+  profileImage: "/images/profile-official.jpeg"
+  title1: "Liderança que vem da trincheira"
+  text1: "<p>Olá! Eu sou Cristian Medeiros, ou Cris se preferir. Após 25 anos construindo software e escalando times, hoje minha missão é aplicar essa engenharia para construir o próximo nível do seu negócio.</p>"
+  title2: "Do código à estratégia"
+  text2: "<p>Minha carreira não começou em salas de reunião, mas com as mãos no código. Por mais de uma década, atuei como arquiteto de software, construindo e otimizando sistemas complexos. Essa base técnica profunda me deu uma compreensão íntima dos desafios reais da engenharia. Com o tempo, minha paixão por resolver problemas evoluiu da tecnologia para as pessoas, e naturalmente migrei para posições de liderança executiva, tendo a honra de ajudar a escalar algumas das empresas que definiram o cenário de tecnologia no Brasil.</p>"
+  title3: "Vamos Conversar?"
+  text3: "<p>A CM-XO nasceu do desejo de compartilhar essa jornada e aplicar esses aprendizados para ajudar outras empresas a alcançarem seu próximo nível. Por isso, este espaço é um convite aberto. Para fundadores que buscam um parceiro estratégico para escalar seus negócios. E também para líderes de tecnologia que buscam um mentor para navegar pelos seus próprios desafios de crescimento. Seja para discutir um desafio no seu negócio ou para trocar ideias sobre liderança e carreira, minha porta está sempre aberta.</p>"
+  buttonText: "Vamos Conversar"
+  buttonLink: "/contact/"
+  signature: "/images/signature.jpg"
+  name: "John Smith"
+  date: "01.01.2024"
+  skillbar:
+    - title: "DESIGN"
+      num: "95%"
+
+    - title: "DEVELOPMENT"
+      num: "85%"
+    
+    - title: "BRANDING"
+      num: "65%"
+
+    - title: "HTML5/CSS3"
+      num: "95%"
+
+    - title: "PHP"
+      num: "75%"
+
+    - title: "AFTER EFFECTS"
+      num: "45%"
+
+ ### About Us [ AboutUsSection ]
+aboutUs:
+  enable: true
+  profileImage: "/images/profile-2.jpg"
+  title1: "WHO WE ARE ?"
+  text1: "<p>Created, likeness bring which in stars herb a is give you’ll it life you’ll. Whose evening. Spirit subdue two don’t. Living, i divided was be every had. Him god. Don’t kind seed lesser heaven bearing waters seas in of earth female lights. Morning fruit may. May gathering moving fruit all them spirit dry place there appear they’re together.<br>Together had said given day spirit. Land years upon, created winged all. Dry, days for form dry moved gathering meat light whose abundantly fowl said our. Have green. Cattle. Called i that waters dry one said firmament his after their night. Likeness.</p>"
+  title2: "ABOUT US"
+  text2: "<p>Created, likeness bring which in stars herb a is give you’ll it life you’ll. Whose evening. Spirit subdue two don’t. Living, i divided was be every had.</p>"
+  title3: "WHAT WE DO"
+  text3: "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.<br><br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p>"
+  title4: "SERVICES"
+  skillbar:
+    - title: "DESIGN"
+      num: "95%"
+
+    - title: "DEVELOPMENT"
+      num: "85%"
+    
+    - title: "COMPANY BRANDING"
+      num: "65%"
+
+### Team [ teamSection ]
+team:
+  enable: true
+  title: "OUR TEAM"
+  member:
+    - title: "PAUL TORRES"
+      image: "/images/team-1.jpg"
+      text: "We don't want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos."
+      socialIcons:
+      - title: "Twitter"
+        icon: "fa-brands fa-x-twitter"
+        url: "https://www.twitter.com/"
+
+      - title: "Facebook"
+        icon: "fa-brands fa-facebook"
+        url: "https://facebook.com/"
+
+      - title: "Dribbble"
+        icon: "fa-brands fa-dribbble"
+        url: "https://www.dribbble.com/"
+
+      - title: "Instagram"
+        icon: "fa-brands fa-instagram"
+        url: "https://www.instagram.com/"
+
+    - title: "JOHNATAN DOE"
+      image: "/images/team-2.jpg"
+      text: "We don't want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos."
+      socialIcons:
+      - title: "Twitter"
+        icon: "fa-brands fa-x-twitter"
+        url: "https://www.twitter.com/"
+
+      - title: "Facebook"
+        icon: "fa-brands fa-facebook"
+        url: "https://facebook.com/"
+
+      - title: "Dribbble"
+        icon: "fa-brands fa-dribbble"
+        url: "https://www.dribbble.com/"
+
+      - title: "Instagram"
+        icon: "fa-brands fa-instagram"
+        url: "https://www.instagram.com/"
+
+    - title: "EMILY JACKSON"
+      image: "/images/team-3.jpg"
+      text: "We don't want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos."
+      socialIcons:
+      - title: "Twitter"
+        icon: "fa-brands fa-x-twitter"
+        url: "https://www.twitter.com/"
+
+      - title: "Facebook"
+        icon: "fa-brands fa-facebook"
+        url: "https://facebook.com/"
+
+      - title: "Dribbble"
+        icon: "fa-brands fa-dribbble"
+        url: "https://www.dribbble.com/"
+
+      - title: "Instagram"
+        icon: "fa-brands fa-instagram"
+        url: "https://www.instagram.com/"
+
+### Team Description [ teamDescriptionSection ]
+teamDescription:
+  enable: true
+  title: "OUR TEAM"
+  description: "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.<p>"
+  member:
+    - title: "PAUL TORRES"
+      image: "/images/team-4.jpg"
+      text: "We don't want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos."
+      socialIcons:
+      - title: "Twitter"
+        icon: "fa-brands fa-x-twitter"
+        url: "https://www.twitter.com/"
+
+      - title: "Facebook"
+        icon: "fa-brands fa-facebook"
+        url: "https://facebook.com/"
+
+      - title: "Dribbble"
+        icon: "fa-brands fa-dribbble"
+        url: "https://www.dribbble.com/"
+
+      - title: "Instagram"
+        icon: "fa-brands fa-instagram"
+        url: "https://www.instagram.com/"
+
+    - title: "JOHNATAN DOE"
+      image: "/images/team-5.jpg"
+      text: "We don't want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos."
+      socialIcons:
+      - title: "Twitter"
+        icon: "fa-brands fa-x-twitter"
+        url: "https://www.twitter.com/"
+
+      - title: "Facebook"
+        icon: "fa-brands fa-facebook"
+        url: "https://facebook.com/"
+
+      - title: "Dribbble"
+        icon: "fa-brands fa-dribbble"
+        url: "https://www.dribbble.com/"
+
+      - title: "Instagram"
+        icon: "fa-brands fa-instagram"
+        url: "https://www.instagram.com/"
+
+    - title: "EMILY JACKSON"
+      image: "/images/team-6.jpg"
+      text: "We don't want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos."
+      socialIcons:
+      - title: "Twitter"
+        icon: "fa-brands fa-x-twitter"
+        url: "https://www.twitter.com/"
+
+      - title: "Facebook"
+        icon: "fa-brands fa-facebook"
+        url: "https://facebook.com/"
+
+      - title: "Dribbble"
+        icon: "fa-brands fa-dribbble"
+        url: "https://www.dribbble.com/"
+
+      - title: "Instagram"
+        icon: "fa-brands fa-instagram"
+        url: "https://www.instagram.com/"
+
+
+### Partners [ partnersSection ]
+partners:
+  enable: true
+  title: "OUR PARTNERS"
+  description: "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.<p>"
+  items:
+    - image: "/images/partners-1.png"
+      url: "https://themeforest.net/user/mountain-themes"
+    
+    - image: "/images/partners-2.png"
+      url: "https://themeforest.net/user/mountain-themes"
+
+    - image: "/images/partners-3.png"
+      url: "https://themeforest.net/user/mountain-themes"
+
+### Partners [ partnersDescriptionSection ]
+partnersDescription:
+  enable: true
+  title: "OUR PARTNERS"
+  description: "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.<p>"
+  items:
+    - image: "/images/logo-dafiti.jpg"
+      url: "https://themeforest.net/user/mountain-themes"
+    
+    - image: "/images/logo-olist.svg"
+      url: "https://themeforest.net/user/mountain-themes"
+
+    - image: "/images/logo-ifood.svg"
+      url: "https://themeforest.net/user/mountain-themes"
+
+    - image: "/images/logo-clicksign.svg"
+      url: "https://themeforest.net/user/mountain-themes"

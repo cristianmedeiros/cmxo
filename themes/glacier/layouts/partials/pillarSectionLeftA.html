@@ -1,0 +1,27 @@
+{{ with .Site.Data.home.pillar.lefta}}
+{{ if .enable }}
+
+{{ "<!-- pillar Section -->" | safeHTML }}
+<div class="pillar-section">
+  <div class="container">
+    <div class="row gy-5 align-items-center">
+
+      <div class="col-md-7 text-center">
+         <img src="{{ .pillarImage | absURL }}">
+      </div>
+
+      <div class="col-md-5">
+        <h4>{{ .title1 }}</h4>
+        <h2>{{ .title2 }}</h2>
+        {{ .text | safeHTML }}
+        {{ if .buttonText }}
+        <a href="{{ .buttonLink | absLangURL }}" class="pillar-button" rel="noopener">{{ .buttonText }} <i class="fa-solid fa-angle-right"></i></a>
+        {{ end }}
+      </div>
+
+    </div>
+  </div>
+</div>
+
+{{ end }}
+{{ end }}

@@ -1,0 +1,39 @@
+{{ $styleAboutMe := .Params.styleAboutMe }}
+
+{{ "<!-- About Me Section -->" | safeHTML }}
+<section class="about-me-section">
+
+    <div class="container">
+        <div class="row">
+
+        {{ with .Site.Data.about.aboutMe }}
+        {{ if .enable }}
+
+        {{ if eq $styleAboutMe "image" }}
+
+            <div class="col-md-6">
+                <img src="{{ .profileImage | absURL }}">
+            </div>
+      
+            <div class="col-md-6">
+                <div class="about-description">
+                    <h5>{{ .title1 }}</h5>
+                    {{ .text1 | safeHTML }}
+                    <h5>{{ .title2 }}</h5>
+                    {{ .text2 | safeHTML }}
+                    <h5>{{ .title3 }}</h5>
+                    {{ .text3 | safeHTML }}
+                    <br>
+                    <a href="{{ .buttonLink | absLangURL }}" class="about-cm-button" rel="noopener">{{ .buttonText }} <i class="fa-solid fa-angle-right"></i></a>
+                 </div>
+
+            </div>
+
+        {{ end }}
+
+        {{ end }}
+        {{ end }}
+
+        </div>
+    </div>
+</section>

@@ -1,0 +1,183 @@
+{{ define "main" }}
+
+{{ $titlePage := .Params.title }}
+{{ $columns := .Params.gallery.columns }}
+{{ $urlPage := .Permalink }}
+
+{{ with .Params.parallax }}
+{{ if .enable }}
+
+{{ "<!-- Parallax Section -->" | safeHTML }}
+<section class="parallax-section">
+    {{ if .image }}
+    <div class="parallax" {{ if eq .parallaxVideo "show" }} data-jarallax data-video-src="{{ .parallaxVideoLink }}" {{ end }} style="background-image: url({{ .image | absURL }})">
+    {{ end }}
+    {{ if .title }}
+    <div class="info">
+        <h2 data-in-effect="{{ .effectTitle }}">{{ .title }}</h2>
+    </div>
+     {{ end }}
+    </div>
+</section>
+
+{{ end }}
+{{ end }}
+
+<div class="container">
+	<div class="row {{ if or (eq .Params.style 1) (eq .Params.style 2) (eq .Params.gallery.enable true ) }}gy-5{{ end }}">
+
+{{ if eq .Params.style 1 }}
+
+	<div class="col-md-6">
+
+{{ end }}
+
+{{ if eq .Params.style 3 }}
+		{{ with .Params.gallery }}
+		{{ if .enable }}
+			<div class="col-md-12">
+		{{ end }}
+		{{ end }}
+{{ end }}
+
+{{ if or (eq .Params.style 1) (eq .Params.style 3) }}
+
+		{{ with .Params.gallery }}
+		{{ if .enable }}
+		<section class="project-gallery">
+			{{ if or (eq .columns 1) (eq .columns 2) (eq .columns 3) }}
+			<div class="row gy-5">
+			{{ end }}
+			{{ range .items }}
+			<a href="{{ .image | absURL }}" data-fancybox="images" {{ if eq .video "show" }}  data-src="{{ .videoLink | absURL }}" {{ end }}  {{ if eq $columns 2 }} class="col-md-6"{{ end }} {{ if eq $columns 3 }} class="col-md-4"{{ end }}>
+				<img src="{{ .image | absURL }}" alt="{{ $titlePage }}">
+			</a>
+			{{ end }}
+			{{ if or (eq .columns 1) (eq .columns 2) (eq .columns 3) }}
+			</div>
+			{{ end }}
+		</section>
+		{{ end }}
+		{{ end }}
+
+	</div>
+
+{{ end }}
+
+
+{{ if or (eq .Params.style 1) (eq .Params.style 2) }}
+
+	<div class="col-md-6">
+
+{{ end }}
+
+{{ if or (eq .Params.style 3) (eq .Params.style 4) }}
+
+	<div class="col-md-12">
+
+{{ end }}
+
+		{{ "<!-- Heading -->" | safeHTML }}
+		<h3>{{ .Title }}</h3>
+
+		{{ with .Params.content }}
+		{{ if .enable }}
+
+		{{ "<!-- Description -->" | safeHTML }}
+		<section class="description-details">
+			{{ .text | safeHTML  }}
+		</section>
+
+		{{ end }}
+		{{ end }}
+
+		{{ with .Params.details }}
+		{{ if .enable }}
+
+		{{ "<!-- Project Details -->" | safeHTML }}
+		<section class="project-details">
+				<h5>{{ .title }}</h5>
+				{{ range .info }}
+				<h6>{{ .label }}</h6>
+				<p>{{ .value | safeHTML }}</p>
+				{{ end }}
+				<div class="share">
+					<h6>{{ i18n "share" }}</h6>
+					<ul class="share-icons">
+						<li><a href="javascript:;" data-sharer="twitter" data-title="{{ $titlePage }}" data-url="{{ $urlPage }}"><i class="fa-brands fa-x-twitter"></i></a></li>
+						<li><a href="javascript:;" data-sharer="facebook" data-title="{{ $titlePage }}" data-url="{{ $urlPage }}"><i class="fa-brands fa-facebook"></i></a></li>
+						<li><a href="javascript:;" data-sharer="pinterest" data-title="{{ $titlePage }}" data-url="{{ $urlPage }}"><i class="fa-brands fa-pinterest"></i></a></li>
+						<li><a href="javascript:;" data-sharer="linkedin" data-title="{{ $titlePage }}" data-url="{{ $urlPage }}"><i class="fa-brands fa-linkedin"></i></a></li>
+						<li><a href="javascript:;" data-sharer="reddit" data-title="{{ $titlePage }}" data-url="{{ $urlPage }}"><i class="fa-brands fa-reddit"></i></a></li>
+					</ul>
+				</div>
+		</section>
+
+		{{ end }}
+		{{ end }}
+
+	</div>
+
+
+
+{{ if eq .Params.style 2 }}
+
+	<div class="col-md-6">
+
+{{ end }}
+
+{{ if eq .Params.style 4 }}
+
+	<div class="col-md-12">
+		
+{{ end }}
+
+{{ if or (eq .Params.style 2) (eq .Params.style 4) }}
+
+		{{ with .Params.gallery }}
+		{{ if .enable }}
+		<section class="project-gallery">
+			{{ if or (eq .columns 1) (eq .columns 2) (eq .columns 3) }}
+			<div class="row gy-5">
+			{{ end }}
+			{{ range .items }}
+			<a href="{{ .image | absURL }}" data-fancybox="images" {{ if eq .video "show" }}  data-src="{{ .videoLink | absURL }}" {{ end }} {{ if eq $columns 2 }} class="col-md-6"{{ end }} {{ if eq $columns 3 }} class="col-md-4"{{ end }}>
+				<img src="{{ .image | absURL }}" alt="{{ $titlePage }}">
+			</a>
+			{{ end }}
+			{{ if or (eq .columns 1) (eq .columns 2) (eq .columns 3) }}
+			</div>
+			{{ end }}
+		</section>
+		{{ end }}
+		{{ end }}
+
+	</div>
+
+{{ end }}
+
+{{ if or .NextInSection .PrevInSection }}
+
+{{ "<!-- Navigation -->" | safeHTML }}
+<div class="project-navigation">
+	{{ if .PrevInSection }}
+	<div class="next-project">
+		<a href="{{ .PrevInSection.Permalink }}">
+			{{ i18n "nextProject" }}<i class="fa fa-angle-right"></i>
+		</a>
+	</div>
+	{{ end }}
+	{{ if .NextInSection }}
+	<div class="prev-project">
+		<a href="{{ .NextInSection.Permalink }}">
+			<i class="fa fa-angle-left"></i>{{ i18n "prevProject" }}
+		</a>
+	</div>
+	{{ end }}
+</div>
+
+{{ end }}
+
+</div>
+</div>
+{{ end }}
