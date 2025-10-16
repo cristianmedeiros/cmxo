@@ -52,6 +52,7 @@ disqusComments = "glacier-hugo" #YOUR DISQUS COMMENTS SHORTNAME
 formspreeFormID = "xanpanww" #YOUR FORMSPREE FORM ID
 reCAPTCHAKey = "6LdlkOorAAAAAGWrUvfVWG7Qm47hMecKE09B4ufW" #YOUR reCAPTCHA v2 key
 googleMapsApiKey = "AIzaSyAV1KS10sb3O462XosfZTKohHJwi6C0joo" #YOUR GOOGLE API KEY
+googleAnalytics = "G-96XSYJ5XYK"
 
 # Sidebar Settings
 [params.sidebar]
