@@ -9,6 +9,9 @@ resourceDir = "resources"
 summaryLength = 50
 DefaultContentLanguage = "pt-br" # Site language. Available translations in the theme's `/i18n` directory.
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 # Menu Settings
 [menu]
