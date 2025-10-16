@@ -24,7 +24,7 @@ experience:
 ### About Me [ AboutMeSection ]
 aboutMe:
   enable: true
-  profileImage: "cmxo/images/profile-official.jpeg"
+  profileImage: "images/profile-official.jpeg"
   title1: "Liderança que vem da trincheira"
   text1: "<p>Olá! Eu sou Cristian Medeiros, ou Cris se preferir. Após 25 anos construindo software e escalando times, hoje minha missão é aplicar essa engenharia para construir o próximo nível do seu negócio.</p>"
   title2: "Do código à estratégia"
@@ -229,14 +229,14 @@ partnersDescription:
   title: "OUR PARTNERS"
   description: "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.<p>"
   items:
-    - image: "cmxo/images/logo-dafiti.jpg"
+    - image: "images/logo-dafiti.jpg"
       url: "https://themeforest.net/user/mountain-themes"
     
-    - image: "cmxo/images/logo-olist.svg"
+    - image: "images/logo-olist.svg"
       url: "https://themeforest.net/user/mountain-themes"
 
-    - image: "cmxo/images/logo-ifood.svg"
+    - image: "images/logo-ifood.svg"
       url: "https://themeforest.net/user/mountain-themes"
 
-    - image: "cmxo/images/logo-clicksign.svg"
+    - image: "images/logo-clicksign.svg"
       url: "https://themeforest.net/user/mountain-themes"

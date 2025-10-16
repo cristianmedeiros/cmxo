@@ -48,7 +48,7 @@ chat:
 pillar:
   left:
     enable: true
-    pillarImage: "cmxo/images/pillars/pillar-escalabilidade.jpg"
+    pillarImage: "images/pillars/pillar-escalabilidade.jpg"
     title1: ""
     title2: "A Ciência da Escalabilidade"
     text: "<p>Escalabilidade não é apenas sobre aumentar a capacidade dos servidores; é a disciplina de crescer de forma organizada, previsível e sustentável.</p><p>Este pilar transforma o caos do hiper-crescimento em um processo de engenharia, onde times, arquitetura e cultura evoluem em sincronia para suportar a demanda do negócio sem sacrificar a qualidade ou a velocidade.</p>"
@@ -56,7 +56,7 @@ pillar:
     buttonLink: "/servicos/"
   lefta:
     enable: true
-    pillarImage: "cmxo/images/pillars/pillar-estrategia.jpg"
+    pillarImage: "images/pillars/pillar-estrategia.jpg"
     title1: ""
     title2: "Estratégia e Visão de Negócio"
     text: "<p>A melhor tecnologia é inútil se não estiver alinhada com a estratégia do negócio. É a ponte entre a complexidade técnica e o valor comercial.</p><p> Atuo como o parceiro estratégico do CEO e dos fundadores, traduzindo a visão da empresa em um roadmap tecnológico robusto e convincente, que mitiga riscos e inspira o time ao resultado.</p>"
@@ -64,7 +64,7 @@ pillar:
     buttonLink: "/servicos/"
   right:
     enable: true
-    pillarImage: "cmxo/images/pillars/pillar-eficiencia.jpg"
+    pillarImage: "images/pillars/pillar-eficiencia.jpg"
     title1: ""
     title2: "O Motor da Eficiência"
     text: "<p>Em um mercado competitivo, a eficiência é uma arma.</p><p> Focar em otimizar o uso dos seus recursos mais preciosos: tempo e capital. Implemento uma gestão baseada em dados para eliminar desperdícios, acelerar o ciclo de desenvolvimento e garantir que cada real investido em tecnologia gere o máximo retorno sobre o investimento.</p>"
