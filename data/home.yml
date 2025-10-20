@@ -5,8 +5,8 @@
 content_home_slider:
   enable: true
   slides:
-    - title: "ENGENHARIA DE SOFTWARE <br>PARA O CRESCIMENTO"
-      description: "Liderança estratégica em tecnologia para scale-ups e PMEs.<br> Integro a experiência executiva que escalou unicórnios como iFood e Olist <br> diretamente na sua empresa, como seu CTO sob demanda."
+    - title: "TECNOLOGIA COMO ALAVANCA <br> ESTRATÉGICA."
+      description: "Liderança técnica sob demanda<br> focada em criar vantagens competitivas duradouras. <br>Minha missão é construir a tecnologia que resolve problemas de forma definitiva: <br> sistemas que automatizam, processos que simplificam e ferramentas que potencializam o time a dar o seu melhor."
       image: "/images/image-home.png"
       buttonText: "Conheça os serviços"
       buttonLink: "/servicos/" 
