@@ -1,6 +1,14 @@
 <head>
   <title>{{ .Title }}</title>
 
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KFQ58JWD');</script>
+  <!-- End Google Tag Manager -->
+
   {{ "<!-- Meta -->" | safeHTML }}
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +21,7 @@
   {{ if gt (len $keywords) 0 }}
   <meta name="keywords" content="{{ delimit (uniq $keywords) ", " }}">
   {{ end }}
-  
+
   {{ with .Params.relcanonical }}
   <link rel="canonical" href="{{ . | relLangURL }}" itemprop="url" />
   {{ else -}}
@@ -58,18 +66,6 @@
   {{ "<!-- Favicon -->" | safeHTML }}
   <link rel="shortcut icon" href="{{ "images/favicon.ico" | absURL }}" type="image/x-icon" />
   <link rel="icon" href="{{ "images/favicon.ico" | absURL }}" type="image/x-icon" />
-
-  {{ with site.Params.googleAnalytics }}
-  {{ "<!-- Google Analytics -->" | safeHTML }}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', '{{ . }}');
-  </script>
-  {{ end }}
 
   {{ range .AlternativeOutputFormats -}}
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
