@@ -9,6 +9,9 @@ resourceDir = "resources"
 summaryLength = 50
 DefaultContentLanguage = "pt-br" # Site language. Available translations in the theme's `/i18n` directory.
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
@@ -44,11 +47,11 @@ DefaultContentLanguage = "pt-br" # Site language. Available translations in the 
 # Main Settings
 [params]
 defaultLogo = "CM eXtended Office"
-defaultKeywords = ["CTO as a Service", "Fractional CTO", "Interim CTO", "Consultor de desenvolvimento", "Consultor de tecnologia", "CTO Interino", "CTO Fracionado", "personal", "modern", "parallax", "hugo theme", "creative"]
+defaultKeywords = ["CTO as a Service", "Fractional CTO", "Interim CTO", "Consultor de desenvolvimento", "Consultor de tecnologia", "CTO Interino", "CTO Fracionado"]
 defaultDescription = "Glacier - Clean & Minimal Portfolio Hugo Theme"
 dateFormat = "January 2, 2006"
-authorName = "Mountain-Themes"
-disqusComments = "glacier-hugo" #YOUR DISQUS COMMENTS SHORTNAME
+authorName = "Cristian Medeiros"
+disqusComments = "" #YOUR DISQUS COMMENTS SHORTNAME
 formspreeFormID = "xanpanww" #YOUR FORMSPREE FORM ID
 reCAPTCHAKey = "6LdlkOorAAAAAGWrUvfVWG7Qm47hMecKE09B4ufW" #YOUR reCAPTCHA v2 key
 googleMapsApiKey = "AIzaSyAV1KS10sb3O462XosfZTKohHJwi6C0joo" #YOUR GOOGLE API KEY
@@ -56,15 +59,16 @@ googleAnalytics = "G-96XSYJ5XYK"
 
 # Sidebar Settings
 [params.sidebar]
-enable = 0 #SIDEBAR SHOW: [ 1 - yes, 0 - no ] For General page "Blog"
+enable = 1 #SIDEBAR SHOW: [ 1 - yes, 0 - no ] For General page "Blog"
 position = "right" #SIDEBAR POSITION: [ left, right ] For General page "Blog"
-search = 0 #SIDEBAR SEARCH WIDGET: [ 1 - yes, 0 - no ]
+search = 1 #SIDEBAR SEARCH WIDGET: [ 1 - yes, 0 - no ]
 latestPosts = 1 #SIDEBAR LATEST POSTS WIDGET: [ 1 - yes, 0 - no ]
 categories = 0 #SIDEBAR CATEGORIES TAXONOMY WIDGET: [ 1 - yes, 0 - no ]
 tags = 0 #SIDEBAR TAG TAXONOMY WIDGET: [ 1 - yes, 0 - no ]
 
+
 [params.about]
-about = 1 #SIDEBAR ABOUT WIDGET: [ 1 - yes, 0 - no ]
+about = 0 #SIDEBAR ABOUT WIDGET: [ 1 - yes, 0 - no ]
 image = "images/author-blog.jpg"
 name = "John Smith"
 text = "<p>Can't multiply. Set set created thing light blessed third without. Him can't kind called set is second thing from you'll tree. Seed darkness you. Itself night. Life. Hath creature good.</p>"
@@ -82,7 +86,7 @@ icon = "fa-brands fa-youtube"
 url = "https://www.youtube.com/"
 
 [params.subscribe]
-subscribe = 1 #SIDEBAR SUBSCRIBE WIDGET: [ 1 - yes, 0 - no ]
+subscribe = 0 #SIDEBAR SUBSCRIBE WIDGET: [ 1 - yes, 0 - no ]
 mailChimpURL = "https://stevedogs.us9.list-manage.com/subscribe/post?u=df0aa2ea10f32337b29b342d4&id=41ddc569b4"  # Example MailChimp url: http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
 
 # Portfolio Settings (Filter)

@@ -2764,6 +2764,7 @@ header {
   .footer-post {
     display: flex;
     flex-direction: row;
+    margin-top: 15px;
   }
 
   .share {
@@ -2814,6 +2815,20 @@ header {
       padding: 9px 28px;
     }
   }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+  }  
+
+  h3 {
+    font-size: 1.1em;
+    text-transform: uppercase;
+  }   
 }
 
 .post-navigation {

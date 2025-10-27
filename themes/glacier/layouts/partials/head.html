@@ -13,6 +13,12 @@
   {{ if gt (len $keywords) 0 }}
   <meta name="keywords" content="{{ delimit (uniq $keywords) ", " }}">
   {{ end }}
+  
+  {{ with .Params.relcanonical }}
+  <link rel="canonical" href="{{ . | relLangURL }}" itemprop="url" />
+  {{ else -}}
+  <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
+  {{ end -}}
 
   
   {{ $description_plain := default .Site.Params.defaultDescription .Description | markdownify | plainify }}
