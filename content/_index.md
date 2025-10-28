@@ -6,7 +6,7 @@ description: "Precisando escalar ou organizar sua tecnologia? CM-XO oferece CTO 
 # Content section
 sections:
   # - parallaxSection
-  - contentSection
+  - heroSection
   - partnersDescriptionSection
   - challengesSection
   - pillarSectionLeft

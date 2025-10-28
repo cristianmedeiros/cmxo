@@ -1,0 +1,21 @@
+{{/* layouts/partials/hero.html */}}
+{{ with.Site.Data.home.hero }}
+{{ if.enable }}
+<section class="hero-section" style="background-image: url('{{.background_image | absURL }}');">
+    <div class="hero-overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 col-md-9">
+                <div class="hero-content">
+                    <h1 class="hero-title">{{.title | safeHTML }}</h1>
+                    <p class="hero-subtitle">{{.subtitle | safeHTML }}</p>
+                    {{ if.button.enable }}
+                    <a href="{{.button.link | absURL }}" class="btn btn-dark hero-button">{{.button.label }}</a>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}

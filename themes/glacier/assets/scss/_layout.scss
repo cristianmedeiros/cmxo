@@ -3221,3 +3221,91 @@ footer {
 .tp-caption {
   // font-size: 30px !important;
 }
+
+/* assets/scss/style.scss */
+
+/* assets/scss/style.scss */
+
+.hero-section {
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 6rem;
+    display: flex;
+    align-items: center;
+    min-height: 65vh; /* Ajuste a altura conforme necessário */
+    color: #1a1a1a;
+    margin-top: -190px;
+    margin-bottom: 20px;        
+}
+
+/* Adiciona uma sobreposição para melhorar a legibilidade do texto */
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* ALTERAÇÃO APLICADA AQUI: Opacidade da sobreposição branca aumentada para 70% */
+    background-color: rgba(255, 255, 255, 0.7); 
+}
+
+.hero-content {
+    position: relative; /* Garante que o conteúdo fique acima da sobreposição */
+    z-index: 2;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.hero-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+    max-width: 600px; /* Melhora a legibilidade */
+    line-height: 1.7;
+}
+
+.hero-button {
+    /* Bootstrap 5 já tem a classe.btn-dark, mas podemos customizar se necessário */
+    font-weight: 700;
+    padding: 12px 28px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-radius: 4px; /* Ajuste sutil no raio */
+    transition: opacity 0.3s ease;
+}
+
+.hero-button:hover {
+    opacity: 0.8;
+}
+
+/* Ajustes para telas menores (responsividade) */
+@media (max-width: 992px) {
+  .hero-section {
+        padding: 10rem 0;
+    }
+  .hero-title {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+        padding: 8rem 0;
+        text-align: center;
+    }
+  .hero-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  .hero-subtitle {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

@@ -95,3 +95,13 @@ content_slider:
       buttonText: "Join With The Community"
       buttonLink: "/contact-v2/"
       type: "image"
+
+hero:
+  enable: true
+  title: "TECNOLOGIA COMO ALAVANCA ESTRATÉGICA."
+  subtitle: "Liderança técnica sob demanda focada em criar vantagens competitivas duradouras. Minha missão é construir a tecnologia que resolve problemas de forma definitiva: sistemas que automatizam, processos que simplificam e ferramentas que potencializam o time a dar o seu melhor."
+  button:
+    enable: true
+    label: "CONHEÇA OS SERVIÇOS"
+    link: "/servicos" # Link para a página ou seção de serviços
+  background_image: "/images/image-home.png" # Coloque sua imagem de fundo na pasta /static/images/
