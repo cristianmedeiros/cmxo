@@ -2,22 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cmxo.tech/tags/caos-operacional/</loc>
-    <lastmod>2025-10-27T10:16:14+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://cmxo.tech/categories/</loc>
-    <lastmod>2025-10-27T10:16:14+03:00</lastmod>
+    <lastmod>2025-10-29T14:11:52+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://cmxo.tech/</loc>
-    <lastmod>2025-10-27T10:16:14+03:00</lastmod>
+    <lastmod>2025-10-29T14:11:52+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://cmxo.tech/blog/</loc>
+    <lastmod>2025-10-29T14:11:52+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/tags/devops/</loc>
+    <lastmod>2025-10-29T14:11:52+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/tags/dora/</loc>
+    <lastmod>2025-10-29T14:11:52+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/blog/dora-e-ia-licoes-para-lideres-usarem-ia-como-alavanca-e-nao-acelerador-de-caos/</loc>
+    <lastmod>2025-10-29T14:11:52+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/tags/engenharia-de-plataforma/</loc>
+    <lastmod>2025-10-29T14:11:52+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/categories/estrat%C3%A9gia/</loc>
+    <lastmod>2025-10-29T14:11:52+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/tags/estrat%C3%A9gia-de-tecnologia/</loc>
+    <lastmod>2025-10-29T14:11:52+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/tags/gest%C3%A3o-de-times-de-engenharia/</loc>
+    <lastmod>2025-10-29T14:11:52+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/categories/ia/</loc>
+    <lastmod>2025-10-29T14:11:52+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/tags/ia/</loc>
+    <lastmod>2025-10-29T14:11:52+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/tags/lideran%C3%A7a-t%C3%A9cnica/</loc>
+    <lastmod>2025-10-29T14:11:52+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/tags/m%C3%A9tricas/</loc>
+    <lastmod>2025-10-29T14:11:52+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/tags/</loc>
+    <lastmod>2025-10-29T14:11:52+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/tags/caos-operacional/</loc>
     <lastmod>2025-10-27T10:16:14+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -42,27 +102,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://cmxo.tech/tags/estrat%C3%A9gia-de-tecnologia/</loc>
-    <lastmod>2025-10-27T10:16:14+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://cmxo.tech/tags/gest%C3%A3o-de-times-de-engenharia/</loc>
-    <lastmod>2025-10-27T10:16:14+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://cmxo.tech/tags/lideran%C3%A7a-t%C3%A9cnica/</loc>
-    <lastmod>2025-10-27T10:16:14+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://cmxo.tech/blog/sua-empresa-travou-na-escala-quando-e-por-que-contratar-um-cto-as-a-service/</loc>
-    <lastmod>2025-10-27T10:16:14+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://cmxo.tech/tags/</loc>
     <lastmod>2025-10-27T10:16:14+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
