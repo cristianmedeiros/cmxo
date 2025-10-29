@@ -26,22 +26,22 @@ unsafe = true
 [[menu.main]]
   identifier = "sobre"
   name = "Sobre"
-  url = "/sobre/"
+  url = "sobre/"
   weight = 2
 [[menu.main]]
   identifier = "servicos"
   name = "Serviços"
-  url = "/servicos/"
+  url = "servicos/"
   weight = 3  
 [[menu.main]]
   identifier = "blog"
   name = "Blog"
-  url = "/blog/"
+  url = "blog/"
   weight = 4
 [[menu.main]]
   identifier = "contact"
   name = "Contato"
-  url = "/contato/"
+  url = "contato/"
   weight = 5
 
 # Main Settings
