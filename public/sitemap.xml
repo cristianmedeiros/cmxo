@@ -2,12 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cmxo.tech/categories/</loc>
-    <lastmod>2025-10-29T14:11:52+03:00</lastmod>
+    <loc>https://cmxo.tech/</loc>
+    <lastmod>2025-11-04T09:01:22+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://cmxo.tech/</loc>
+    <loc>https://cmxo.tech/blog/</loc>
+    <lastmod>2025-11-04T09:01:22+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/categories/</loc>
     <lastmod>2025-10-29T14:11:52+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -111,10 +116,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://cmxo.tech/diagnostico/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://cmxo.tech/blog/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
