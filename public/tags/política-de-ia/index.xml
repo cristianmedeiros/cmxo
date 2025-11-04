@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DORA on Cristian Medeiros - CTO as a Service</title>
-    <link>https://cmxo.tech/tags/dora/</link>
-    <description>Recent content in DORA on Cristian Medeiros - CTO as a Service</description>
+    <title>Política De IA on Cristian Medeiros - CTO as a Service</title>
+    <link>https://cmxo.tech/tags/pol%C3%ADtica-de-ia/</link>
+    <description>Recent content in Política De IA on Cristian Medeiros - CTO as a Service</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Nov 2025 09:01:22 +0300</lastBuildDate>
-    <atom:link href="https://cmxo.tech/tags/dora/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cmxo.tech/tags/pol%C3%ADtica-de-ia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IA como Alavanca (Parte 1 de 7): O Guia Prático para uma Política de IA Clara e Comunicada</title>
       <link>https://cmxo.tech/blog/ia-como-alavanca-o-guia-pr%C3%A1tico-para-uma-pol%C3%ADtica-de-ia-clara-e-comunicada/</link>
       <pubDate>Tue, 04 Nov 2025 09:01:22 +0300</pubDate>
       <guid>https://cmxo.tech/blog/ia-como-alavanca-o-guia-pr%C3%A1tico-para-uma-pol%C3%ADtica-de-ia-clara-e-comunicada/</guid>
       <description>&lt;p&gt;Como líder de tecnologia, você provavelmente vive um dilema diário. Seu CEO e o time de produto estão (corretamente) pressionando pelo uso de IA para acelerar a inovação. Ao mesmo tempo, sua equipe de engenharia está operando em um de dois extremos:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;O &amp;ldquo;Velho Oeste&amp;rdquo;:&lt;/strong&gt; Usando ferramentas de IA pessoais, gratuitas e não gerenciadas, colando código proprietário em LLMs públicos e criando um passivo de segurança e compliance gigantesco.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;A &amp;ldquo;Paralisia&amp;rdquo;:&lt;/strong&gt; Com tanto medo de fazer algo errado (e sem diretrizes claras), a equipe evita as ferramentas, perdendo os ganhos de produtividade que seus concorrentes já estão capturando.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Em ambos os casos, o resultado é o mesmo: &lt;strong&gt;atrito&lt;/strong&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>DORA 2025 e IA: Lições para Líderes Usarem IA como Alavanca (e Não Acelerador de Caos)</title>
-      <link>https://cmxo.tech/blog/dora-e-ia-licoes-para-lideres-usarem-ia-como-alavanca-e-nao-acelerador-de-caos/</link>
-      <pubDate>Wed, 29 Oct 2025 14:11:52 +0300</pubDate>
-      <guid>https://cmxo.tech/blog/dora-e-ia-licoes-para-lideres-usarem-ia-como-alavanca-e-nao-acelerador-de-caos/</guid>
-      <description>&lt;h2 id=&#34;1-introdução-a-era-da-ia-chegou-e-o-dora-tem-o-mapa&#34;&gt;1. Introdução: A Era da IA Chegou (e o DORA Tem o Mapa)&lt;/h2&gt;&#xA;&lt;p&gt;A inteligência artificial deixou de ser promessa e virou pressão. Como líder de uma startup ou PME, você provavelmente sente a urgência: &amp;ldquo;Precisamos usar IA para não ficar para trás&amp;rdquo;. Mas, em meio ao &lt;em&gt;hype&lt;/em&gt;, como saber se você está investindo em uma revolução ou apenas acelerando em direção ao caos?&lt;/p&gt;&#xA;&lt;p&gt;Felizmente, temos uma bússola confiável: a pesquisa DORA (DevOps Research and Assessment). &lt;cite&gt;Por mais de uma década, o DORA tem sido o padrão-ouro para entender o que realmente impulsiona a performance em times de tecnologia, baseado em dados de dezenas de milhares de profissionais globalmente&lt;/cite&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
