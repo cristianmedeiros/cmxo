@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TDD on Cristian Medeiros - CTO as a Service</title>
+    <link>https://cmxo.tech/tags/tdd/</link>
+    <description>Recent content in TDD on Cristian Medeiros - CTO as a Service</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Nov 2025 10:15:22 +0300</lastBuildDate>
+    <atom:link href="https://cmxo.tech/tags/tdd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IA como Alavanca (Parte 2 de 7): Domando a Velocidade da IA com a Disciplina de Pequenos Lotes</title>
+      <link>https://cmxo.tech/blog/ia-como-alavanca-domando-a-velocidade-da-ia-com-a-disciplina-de-pequenos-lotes/</link>
+      <pubDate>Thu, 13 Nov 2025 10:15:22 +0300</pubDate>
+      <guid>https://cmxo.tech/blog/ia-como-alavanca-domando-a-velocidade-da-ia-com-a-disciplina-de-pequenos-lotes/</guid>
+      <description>&lt;h2 id=&#34;o-paradoxo-do-pr-gigante&#34;&gt;O Paradoxo do &amp;ldquo;PR Gigante&amp;rdquo;&lt;/h2&gt;&#xA;&lt;p&gt;Sua equipe adotou o GitHub Copilot ou outra ferramenta de IA. O &lt;em&gt;feeling&lt;/em&gt; é ótimo: o código está sendo escrito 30% mais rápido. Mas, ao olhar para os &lt;em&gt;dashboards&lt;/em&gt;, você, como CTO ou Head of Engineering, percebe uma dura realidade: o &lt;em&gt;cycle time&lt;/em&gt; (tempo da ideia à produção) não diminuiu.&lt;/p&gt;&#xA;&lt;p&gt;A equipe de engenharia está afogada em &lt;em&gt;Pull Requests&lt;/em&gt; (PRs) gigantescos. A IA facilita a geração de um &lt;em&gt;volume&lt;/em&gt; enorme de código de uma só vez. Além disso, &lt;em&gt;prompts&lt;/em&gt; abertos ou mal definidos (&amp;ldquo;crie a funcionalidade X&amp;rdquo;) geram código desnecessário, verboso ou complexo, inflando ainda mais os PRs.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

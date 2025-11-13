@@ -3,46 +3,81 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://cmxo.tech/categories/</loc>
-    <lastmod>2025-11-04T09:01:22+03:00</lastmod>
+    <lastmod>2025-11-13T10:15:22+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/tags/ci/cd/</loc>
+    <lastmod>2025-11-13T10:15:22+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://cmxo.tech/</loc>
-    <lastmod>2025-11-04T09:01:22+03:00</lastmod>
+    <lastmod>2025-11-13T10:15:22+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://cmxo.tech/blog/</loc>
-    <lastmod>2025-11-04T09:01:22+03:00</lastmod>
+    <lastmod>2025-11-13T10:15:22+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://cmxo.tech/tags/cto-as-a-service/</loc>
-    <lastmod>2025-11-04T09:01:22+03:00</lastmod>
+    <lastmod>2025-11-13T10:15:22+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://cmxo.tech/tags/devops/</loc>
-    <lastmod>2025-11-04T09:01:22+03:00</lastmod>
+    <lastmod>2025-11-13T10:15:22+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://cmxo.tech/tags/dora/</loc>
-    <lastmod>2025-11-04T09:01:22+03:00</lastmod>
+    <lastmod>2025-11-13T10:15:22+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://cmxo.tech/tags/governan%C3%A7a-de-ia/</loc>
-    <lastmod>2025-11-04T09:01:22+03:00</lastmod>
+    <loc>https://cmxo.tech/tags/extreme-programming/</loc>
+    <lastmod>2025-11-13T10:15:22+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://cmxo.tech/categories/ia/</loc>
-    <lastmod>2025-11-04T09:01:22+03:00</lastmod>
+    <lastmod>2025-11-13T10:15:22+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://cmxo.tech/tags/ia/</loc>
+    <lastmod>2025-11-13T10:15:22+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/blog/ia-como-alavanca-domando-a-velocidade-da-ia-com-a-disciplina-de-pequenos-lotes/</loc>
+    <lastmod>2025-11-13T10:15:22+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/categories/lideran%C3%A7a-t%C3%A9cnica/</loc>
+    <lastmod>2025-11-13T10:15:22+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/tags/lideran%C3%A7a-t%C3%A9cnica/</loc>
+    <lastmod>2025-11-13T10:15:22+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/tags/</loc>
+    <lastmod>2025-11-13T10:15:22+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/tags/tdd/</loc>
+    <lastmod>2025-11-13T10:15:22+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/tags/governan%C3%A7a-de-ia/</loc>
     <lastmod>2025-11-04T09:01:22+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -52,22 +87,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://cmxo.tech/categories/lideran%C3%A7a-t%C3%A9cnica/</loc>
-    <lastmod>2025-11-04T09:01:22+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://cmxo.tech/tags/lideran%C3%A7a-t%C3%A9cnica/</loc>
-    <lastmod>2025-11-04T09:01:22+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://cmxo.tech/tags/pol%C3%ADtica-de-ia/</loc>
-    <lastmod>2025-11-04T09:01:22+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://cmxo.tech/tags/</loc>
     <lastmod>2025-11-04T09:01:22+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
