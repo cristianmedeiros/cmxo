@@ -6,8 +6,15 @@
     <description>Recent content in IA on Cristian Medeiros - CTO as a Service</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Nov 2025 10:15:22 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 24 Nov 2025 08:56:41 +0300</lastBuildDate>
     <atom:link href="https://cmxo.tech/categories/ia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IA como Alavanca (Parte 3 de 7): Construindo &#34;Golden Paths&#34; para a IA (Mesmo se você vive em um Monolito)</title>
+      <link>https://cmxo.tech/blog/ia-como-alavanca-construindo-caminhos-para-a-ia-mesmo-se-voce-vive-em-um-monolito/</link>
+      <pubDate>Mon, 24 Nov 2025 08:56:41 +0300</pubDate>
+      <guid>https://cmxo.tech/blog/ia-como-alavanca-construindo-caminhos-para-a-ia-mesmo-se-voce-vive-em-um-monolito/</guid>
+      <description>&lt;h2 id=&#34;o-mito-da-arquitetura-perfeita&#34;&gt;O Mito da &amp;ldquo;Arquitetura Perfeita&amp;rdquo;&lt;/h2&gt;&#xA;&lt;p&gt;Se você lidera uma startup em crescimento, provavelmente vive uma realidade distante dos &lt;em&gt;cases&lt;/em&gt; de sucesso do Vale do Silício, ou até das terras tupiniquins. Você não tem uma arquitetura de microsserviços imaculada rodando em Kubernetes perfeitamente orquestrados.&lt;/p&gt;&#xA;&lt;p&gt;Você tem um &amp;ldquo;Monolito Heroico&amp;rdquo; — talvez em Rails, Django ou Node — que cresceu rápido demais. Ele funciona e paga as contas, mas é difícil de configurar, lento para fazer &lt;em&gt;deploy&lt;/em&gt; e assustador para novos desenvolvedores.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>IA como Alavanca (Parte 2 de 7): Domando a Velocidade da IA com a Disciplina de Pequenos Lotes</title>
       <link>https://cmxo.tech/blog/ia-como-alavanca-domando-a-velocidade-da-ia-com-a-disciplina-de-pequenos-lotes/</link>
