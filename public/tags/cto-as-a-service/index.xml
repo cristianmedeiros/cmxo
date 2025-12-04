@@ -6,8 +6,15 @@
     <description>Recent content in CTO as a Service on Cristian Medeiros - CTO as a Service</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Nov 2025 08:56:41 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 04 Dec 2025 10:10:43 +0300</lastBuildDate>
     <atom:link href="https://cmxo.tech/tags/cto-as-a-service/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IA como Alavanca (Parte 4 de 7): Por que Construir a &#39;Coisa Errada&#39; Mais Rápido é o Maior Risco da IA</title>
+      <link>https://cmxo.tech/blog/ia-como-alavanca-por-que-construir-a-coisa-errada-mais-rapido-e-o-maior-risco-da-ia/</link>
+      <pubDate>Thu, 04 Dec 2025 10:10:43 +0300</pubDate>
+      <guid>https://cmxo.tech/blog/ia-como-alavanca-por-que-construir-a-coisa-errada-mais-rapido-e-o-maior-risco-da-ia/</guid>
+      <description>&lt;h2 id=&#34;a-armadilha-da-fábrica-de-features-turbinada&#34;&gt;A Armadilha da &amp;ldquo;Fábrica de Features&amp;rdquo; Turbinada&lt;/h2&gt;&#xA;&lt;p&gt;Com a chegada dos assistentes de código baseados em IA, a barreira para criar software caiu drasticamente. Hoje, é trivial gerar novas &lt;em&gt;features&lt;/em&gt;, telas inteiras e APIs em tempo recorde. O sentimento imediato é de euforia: &amp;ldquo;Estamos entregando 50% mais rápido!&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;Mas, se você olhar para os ponteiros do negócio — retenção, &lt;em&gt;churn&lt;/em&gt;, receita — eles podem estar estagnados.&lt;/p&gt;&#xA;&lt;p&gt;Este é o perigo da &amp;ldquo;Fábrica de Features&amp;rdquo; turbinada pela IA. A tecnologia é um motor potente, mas o &lt;strong&gt;Foco no Usuário&lt;/strong&gt; é o volante. Se você der um motor de Fórmula 1 para um time que não sabe para onde está indo, eles não vão chegar ao pódio mais rápido; eles vão bater no muro mais rápido.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>IA como Alavanca (Parte 3 de 7): Construindo &#34;Golden Paths&#34; para a IA (Mesmo se você vive em um Monolito)</title>
       <link>https://cmxo.tech/blog/ia-como-alavanca-construindo-caminhos-para-a-ia-mesmo-se-voce-vive-em-um-monolito/</link>

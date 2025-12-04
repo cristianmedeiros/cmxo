@@ -3,22 +3,72 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://cmxo.tech/categories/</loc>
-    <lastmod>2025-11-24T08:56:41+03:00</lastmod>
+    <lastmod>2025-12-04T10:10:43+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://cmxo.tech/</loc>
-    <lastmod>2025-11-24T08:56:41+03:00</lastmod>
+    <lastmod>2025-12-04T10:10:43+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://cmxo.tech/blog/</loc>
-    <lastmod>2025-11-24T08:56:41+03:00</lastmod>
+    <lastmod>2025-12-04T10:10:43+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://cmxo.tech/tags/cto-as-a-service/</loc>
-    <lastmod>2025-11-24T08:56:41+03:00</lastmod>
+    <lastmod>2025-12-04T10:10:43+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/tags/dora-2025/</loc>
+    <lastmod>2025-12-04T10:10:43+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/tags/estrat%C3%A9gia-de-produto/</loc>
+    <lastmod>2025-12-04T10:10:43+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/categories/ia/</loc>
+    <lastmod>2025-12-04T10:10:43+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/tags/ia/</loc>
+    <lastmod>2025-12-04T10:10:43+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/blog/ia-como-alavanca-por-que-construir-a-coisa-errada-mais-rapido-e-o-maior-risco-da-ia/</loc>
+    <lastmod>2025-12-04T10:10:43+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/categories/lideran%C3%A7a-t%C3%A9cnica/</loc>
+    <lastmod>2025-12-04T10:10:43+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/tags/lideran%C3%A7a-t%C3%A9cnica/</loc>
+    <lastmod>2025-12-04T10:10:43+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/tags/product-engineering/</loc>
+    <lastmod>2025-12-04T10:10:43+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/tags/</loc>
+    <lastmod>2025-12-04T10:10:43+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cmxo.tech/tags/ux/</loc>
+    <lastmod>2025-12-04T10:10:43+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -42,16 +92,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://cmxo.tech/categories/ia/</loc>
-    <lastmod>2025-11-24T08:56:41+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://cmxo.tech/tags/ia/</loc>
-    <lastmod>2025-11-24T08:56:41+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://cmxo.tech/blog/ia-como-alavanca-construindo-caminhos-para-a-ia-mesmo-se-voce-vive-em-um-monolito/</loc>
     <lastmod>2025-11-24T08:56:41+03:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -62,27 +102,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://cmxo.tech/categories/lideran%C3%A7a-t%C3%A9cnica/</loc>
-    <lastmod>2025-11-24T08:56:41+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://cmxo.tech/tags/lideran%C3%A7a-t%C3%A9cnica/</loc>
-    <lastmod>2025-11-24T08:56:41+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://cmxo.tech/tags/monolito/</loc>
     <lastmod>2025-11-24T08:56:41+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://cmxo.tech/categories/plataforma/</loc>
-    <lastmod>2025-11-24T08:56:41+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://cmxo.tech/tags/</loc>
     <lastmod>2025-11-24T08:56:41+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
