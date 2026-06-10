@@ -1,138 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Cristian Medeiros - CTO as a Service para Startups, Scale-ups e PMEs on Cristian Medeiros - CTO as a Service</title>
-    <link>https://cmxo.tech/</link>
-    <description>Recent content in Cristian Medeiros - CTO as a Service para Startups, Scale-ups e PMEs on Cristian Medeiros - CTO as a Service</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 04 Dec 2025 10:10:43 +0300</lastBuildDate>
-    <atom:link href="https://cmxo.tech/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>IA como Alavanca (Parte 4 de 7): Por que Construir a &#39;Coisa Errada&#39; Mais Rápido é o Maior Risco da IA</title>
-      <link>https://cmxo.tech/blog/ia-como-alavanca-por-que-construir-a-coisa-errada-mais-rapido-e-o-maior-risco-da-ia/</link>
-      <pubDate>Thu, 04 Dec 2025 10:10:43 +0300</pubDate>
-      <guid>https://cmxo.tech/blog/ia-como-alavanca-por-que-construir-a-coisa-errada-mais-rapido-e-o-maior-risco-da-ia/</guid>
-      <description>&lt;h2 id=&#34;a-armadilha-da-fábrica-de-features-turbinada&#34;&gt;A Armadilha da &amp;ldquo;Fábrica de Features&amp;rdquo; Turbinada&lt;/h2&gt;&#xA;&lt;p&gt;Com a chegada dos assistentes de código baseados em IA, a barreira para criar software caiu drasticamente. Hoje, é trivial gerar novas &lt;em&gt;features&lt;/em&gt;, telas inteiras e APIs em tempo recorde. O sentimento imediato é de euforia: &amp;ldquo;Estamos entregando 50% mais rápido!&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;Mas, se você olhar para os ponteiros do negócio — retenção, &lt;em&gt;churn&lt;/em&gt;, receita — eles podem estar estagnados.&lt;/p&gt;&#xA;&lt;p&gt;Este é o perigo da &amp;ldquo;Fábrica de Features&amp;rdquo; turbinada pela IA. A tecnologia é um motor potente, mas o &lt;strong&gt;Foco no Usuário&lt;/strong&gt; é o volante. Se você der um motor de Fórmula 1 para um time que não sabe para onde está indo, eles não vão chegar ao pódio mais rápido; eles vão bater no muro mais rápido.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>IA como Alavanca (Parte 3 de 7): Construindo &#34;Golden Paths&#34; para a IA (Mesmo se você vive em um Monolito)</title>
-      <link>https://cmxo.tech/blog/ia-como-alavanca-construindo-caminhos-para-a-ia-mesmo-se-voce-vive-em-um-monolito/</link>
-      <pubDate>Mon, 24 Nov 2025 08:56:41 +0300</pubDate>
-      <guid>https://cmxo.tech/blog/ia-como-alavanca-construindo-caminhos-para-a-ia-mesmo-se-voce-vive-em-um-monolito/</guid>
-      <description>&lt;h2 id=&#34;o-mito-da-arquitetura-perfeita&#34;&gt;O Mito da &amp;ldquo;Arquitetura Perfeita&amp;rdquo;&lt;/h2&gt;&#xA;&lt;p&gt;Se você lidera uma startup em crescimento, provavelmente vive uma realidade distante dos &lt;em&gt;cases&lt;/em&gt; de sucesso do Vale do Silício, ou até das terras tupiniquins. Você não tem uma arquitetura de microsserviços imaculada rodando em Kubernetes perfeitamente orquestrados.&lt;/p&gt;&#xA;&lt;p&gt;Você tem um &amp;ldquo;Monolito Heroico&amp;rdquo; — talvez em Rails, Django ou Node — que cresceu rápido demais. Ele funciona e paga as contas, mas é difícil de configurar, lento para fazer &lt;em&gt;deploy&lt;/em&gt; e assustador para novos desenvolvedores.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>IA como Alavanca (Parte 2 de 7): Domando a Velocidade da IA com a Disciplina de Pequenos Lotes</title>
-      <link>https://cmxo.tech/blog/ia-como-alavanca-domando-a-velocidade-da-ia-com-a-disciplina-de-pequenos-lotes/</link>
-      <pubDate>Thu, 13 Nov 2025 10:15:22 +0300</pubDate>
-      <guid>https://cmxo.tech/blog/ia-como-alavanca-domando-a-velocidade-da-ia-com-a-disciplina-de-pequenos-lotes/</guid>
-      <description>&lt;h2 id=&#34;o-paradoxo-do-pr-gigante&#34;&gt;O Paradoxo do &amp;ldquo;PR Gigante&amp;rdquo;&lt;/h2&gt;&#xA;&lt;p&gt;Sua equipe adotou o GitHub Copilot ou outra ferramenta de IA. O &lt;em&gt;feeling&lt;/em&gt; é ótimo: o código está sendo escrito 30% mais rápido. Mas, ao olhar para os &lt;em&gt;dashboards&lt;/em&gt;, você, como CTO ou Head of Engineering, percebe uma dura realidade: o &lt;em&gt;cycle time&lt;/em&gt; (tempo da ideia à produção) não diminuiu.&lt;/p&gt;&#xA;&lt;p&gt;A equipe de engenharia está afogada em &lt;em&gt;Pull Requests&lt;/em&gt; (PRs) gigantescos. A IA facilita a geração de um &lt;em&gt;volume&lt;/em&gt; enorme de código de uma só vez. Além disso, &lt;em&gt;prompts&lt;/em&gt; abertos ou mal definidos (&amp;ldquo;crie a funcionalidade X&amp;rdquo;) geram código desnecessário, verboso ou complexo, inflando ainda mais os PRs.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>IA como Alavanca (Parte 1 de 7): O Guia Prático para uma Política de IA Clara e Comunicada</title>
-      <link>https://cmxo.tech/blog/ia-como-alavanca-o-guia-pr%C3%A1tico-para-uma-pol%C3%ADtica-de-ia-clara-e-comunicada/</link>
-      <pubDate>Tue, 04 Nov 2025 09:01:22 +0300</pubDate>
-      <guid>https://cmxo.tech/blog/ia-como-alavanca-o-guia-pr%C3%A1tico-para-uma-pol%C3%ADtica-de-ia-clara-e-comunicada/</guid>
-      <description>&lt;p&gt;Como líder de tecnologia, você provavelmente vive um dilema diário. Seu CEO e o time de produto estão (corretamente) pressionando pelo uso de IA para acelerar a inovação. Ao mesmo tempo, sua equipe de engenharia está operando em um de dois extremos:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;O &amp;ldquo;Velho Oeste&amp;rdquo;:&lt;/strong&gt; Usando ferramentas de IA pessoais, gratuitas e não gerenciadas, colando código proprietário em LLMs públicos e criando um passivo de segurança e compliance gigantesco.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;A &amp;ldquo;Paralisia&amp;rdquo;:&lt;/strong&gt; Com tanto medo de fazer algo errado (e sem diretrizes claras), a equipe evita as ferramentas, perdendo os ganhos de produtividade que seus concorrentes já estão capturando.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Em ambos os casos, o resultado é o mesmo: &lt;strong&gt;atrito&lt;/strong&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>DORA 2025 e IA: Lições para Líderes Usarem IA como Alavanca (e Não Acelerador de Caos)</title>
-      <link>https://cmxo.tech/blog/dora-e-ia-licoes-para-lideres-usarem-ia-como-alavanca-e-nao-acelerador-de-caos/</link>
-      <pubDate>Wed, 29 Oct 2025 14:11:52 +0300</pubDate>
-      <guid>https://cmxo.tech/blog/dora-e-ia-licoes-para-lideres-usarem-ia-como-alavanca-e-nao-acelerador-de-caos/</guid>
-      <description>&lt;h2 id=&#34;1-introdução-a-era-da-ia-chegou-e-o-dora-tem-o-mapa&#34;&gt;1. Introdução: A Era da IA Chegou (e o DORA Tem o Mapa)&lt;/h2&gt;&#xA;&lt;p&gt;A inteligência artificial deixou de ser promessa e virou pressão. Como líder de uma startup ou PME, você provavelmente sente a urgência: &amp;ldquo;Precisamos usar IA para não ficar para trás&amp;rdquo;. Mas, em meio ao &lt;em&gt;hype&lt;/em&gt;, como saber se você está investindo em uma revolução ou apenas acelerando em direção ao caos?&lt;/p&gt;&#xA;&lt;p&gt;Felizmente, temos uma bússola confiável: a pesquisa DORA (DevOps Research and Assessment). &lt;cite&gt;Por mais de uma década, o DORA tem sido o padrão-ouro para entender o que realmente impulsiona a performance em times de tecnologia, baseado em dados de dezenas de milhares de profissionais globalmente&lt;/cite&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Sua empresa travou na escala? Quando (e por que) contratar um CTO as a Service</title>
-      <link>https://cmxo.tech/blog/sua-empresa-travou-na-escala-quando-e-por-que-contratar-um-cto-as-a-service/</link>
-      <pubDate>Mon, 27 Oct 2025 10:16:14 +0300</pubDate>
-      <guid>https://cmxo.tech/blog/sua-empresa-travou-na-escala-quando-e-por-que-contratar-um-cto-as-a-service/</guid>
-      <description>&lt;h2 id=&#34;1-introdução-o-motor-começou-a-falhar&#34;&gt;1. Introdução: O Motor Começou a Falhar&lt;/h2&gt;&#xA;&lt;p&gt;No início, tudo era velocidade. Ideias se transformavam em código, e o produto evoluía diariamente. Mas, de repente, algo mudou. O sucesso inicial trouxe complexidade. O que antes era um barco ágil agora parece um transatlântico difícil de manobrar.&lt;/p&gt;&#xA;&lt;p&gt;Se você é o CEO, Fundador ou o líder responsável pelo negócio, você sente isso na pele. As reuniões sobre tecnologia ficaram mais longas. As entregas, mais lentas. Aquele sentimento de tração constante foi substituído por uma frustração recorrente.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Agendamento Confirmado</title>
-      <link>https://cmxo.tech/agendamento-confirmado/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cmxo.tech/agendamento-confirmado/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cristian Medeiros - CTO as a Service para Startups, Scale-ups e PMEs - Contato</title>
-      <link>https://cmxo.tech/contato/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cmxo.tech/contato/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Diagnóstico Estratégico</title>
-      <link>https://cmxo.tech/diagnostico/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cmxo.tech/diagnostico/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Serviços oferecidos por Cristian Medeiros como CTO as a Service para Startups, Scale-ups e PMEs - Serviços</title>
-      <link>https://cmxo.tech/servicos/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cmxo.tech/servicos/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Serviços oferecidos por Cristian Medeiros como CTO as a Service para Startups, Scale-ups e PMEs - Serviços</title>
-      <link>https://cmxo.tech/servicos/conselheiro-tecnico/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cmxo.tech/servicos/conselheiro-tecnico/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Serviços oferecidos por Cristian Medeiros como CTO as a Service para Startups, Scale-ups e PMEs - Serviços</title>
-      <link>https://cmxo.tech/servicos/conselheiro-tecnologia/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cmxo.tech/servicos/conselheiro-tecnologia/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Serviços oferecidos por Cristian Medeiros como CTO as a Service para Startups, Scale-ups e PMEs - Serviços</title>
-      <link>https://cmxo.tech/servicos/cto-as-a-service/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cmxo.tech/servicos/cto-as-a-service/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Serviços oferecidos por Cristian Medeiros como CTO as a Service para Startups, Scale-ups e PMEs - Serviços</title>
-      <link>https://cmxo.tech/servicos/cto-interino/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cmxo.tech/servicos/cto-interino/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Serviços oferecidos por Cristian Medeiros como CTO as a Service para Startups, Scale-ups e PMEs - Serviços</title>
-      <link>https://cmxo.tech/servicos/factional-cto/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cmxo.tech/servicos/factional-cto/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Serviços oferecidos por Cristian Medeiros como CTO as a Service para Startups, Scale-ups e PMEs - Serviços</title>
-      <link>https://cmxo.tech/servicos/interim-cto/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cmxo.tech/servicos/interim-cto/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Serviços oferecidos por Cristian Medeiros como CTO as a Service para Startups, Scale-ups e PMEs - Serviços</title>
-      <link>https://cmxo.tech/servicos/tech-advisor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cmxo.tech/servicos/tech-advisor/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sobre Cristian Medeiros | Liderança Técnica com Experiência em iFood, Olist e Dafiti - CTO as a Service para Startups, Scale-ups e PMEs - Sobre</title>
-      <link>https://cmxo.tech/sobre/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cmxo.tech/sobre/</guid>
-      <description></description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cristian Medeiros - CTO as a Service para Startups, Scale-ups e PMEs on Cristian Medeiros - CTO as a Service</title><link>https://cmxo.tech/</link><description>Recent content in Cristian Medeiros - CTO as a Service para Startups, Scale-ups e PMEs on Cristian Medeiros - CTO as a Service</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 25 Feb 2026 22:11:02 +0300</lastBuildDate><atom:link href="https://cmxo.tech/index.xml" rel="self" type="application/rss+xml"/><item><title>IA como Alavanca (Parte 7 de 7): Métricas e ROI — Como Provar que a IA Está Dando Lucro (e Não Apenas Despesa)</title><link>https://cmxo.tech/blog/ia-como-alavanca-metricas-e-roi-como-provar-que-a-ia-esta-dando-lucro-e-nao-apenas-despesa/</link><pubDate>Wed, 25 Feb 2026 22:11:02 +0300</pubDate><guid>https://cmxo.tech/blog/ia-como-alavanca-metricas-e-roi-como-provar-que-a-ia-esta-dando-lucro-e-nao-apenas-despesa/</guid><description>&lt;h1 id="ia-como-alavanca-parte-7-de-7-métricas-e-roi--como-provar-que-a-ia-está-dando-lucro-e-não-apenas-despesa"&gt;IA como Alavanca (Parte 7 de 7): Métricas e ROI — Como Provar que a IA Está Dando Lucro (e Não Apenas Despesa)&lt;/h1&gt;
+&lt;h2 id="introdução-o-fim-da-lua-de-mel-com-o-hype"&gt;Introdução: O Fim da Lua de Mel com o Hype&lt;/h2&gt;
+&lt;p&gt;Até ontem, bastava colocar a palavra &amp;ldquo;IA&amp;rdquo; em uma apresentação de slides para conseguir orçamento. Os comitês executivos e conselhos de administração liberavam verba para ferramentas de IA Generativa pelo simples medo de ficarem para trás (&lt;em&gt;FOMO - Fear Of Missing Out&lt;/em&gt;).&lt;/p&gt;</description></item><item><title>IA como Alavanca (Parte 6 de 7): A Psicologia da IA – De Ameaça Silenciosa a Copiloto de Confiança</title><link>https://cmxo.tech/blog/ia-como-alavanca-a-psicologia-da-ia-de-ameaca-silenciosa-a-copiloto-de-confianca/</link><pubDate>Wed, 04 Feb 2026 19:01:22 +0300</pubDate><guid>https://cmxo.tech/blog/ia-como-alavanca-a-psicologia-da-ia-de-ameaca-silenciosa-a-copiloto-de-confianca/</guid><description>&lt;h1 id="ia-como-alavanca-parte-6-de-7-a-psicologia-da-ia--de-ameaça-silenciosa-a-copiloto-de-confiança"&gt;IA como Alavanca (Parte 6 de 7): A Psicologia da IA – De Ameaça Silenciosa a Copiloto de Confiança&lt;/h1&gt;
+&lt;h2 id="introdução-o-elefante-na-sala"&gt;Introdução: O Elefante na Sala&lt;/h2&gt;
+&lt;p&gt;Você liberou o orçamento, comprou as licenças do GitHub Copilot ou do Cursor para toda a equipe de engenharia, fez um workshop de &lt;em&gt;prompt engineering&lt;/em&gt; e sentou para esperar o aumento mágico de produtividade.&lt;/p&gt;
+&lt;p&gt;Semanas depois, as métricas não se moveram. Pior: você nota murmúrios, resistência disfarçada de ceticismo técnico (&amp;quot;&lt;em&gt;esse código gerado é muito ruim&lt;/em&gt;&amp;quot;) e um clima de apreensão.&lt;/p&gt;</description></item><item><title>IA como Alavanca (Parte 5 de 7): 'Garbage In, Garbage Out' em Escala — A Importância do Ecossistema de Dados</title><link>https://cmxo.tech/blog/ia-como-alavanca-garbage-in-garbage-out-em-escala-a-import%C3%A2ncia-do-ecossistema-de-dados/</link><pubDate>Tue, 20 Jan 2026 09:11:43 +0300</pubDate><guid>https://cmxo.tech/blog/ia-como-alavanca-garbage-in-garbage-out-em-escala-a-import%C3%A2ncia-do-ecossistema-de-dados/</guid><description>&lt;h2 id="a-culpa-não-é-do-modelo-geralmente"&gt;A Culpa não é do Modelo (Geralmente)&lt;/h2&gt;
+&lt;p&gt;Imagine a cena: um desenvolvedor sênior pede ao Copilot para gerar uma função de autenticação. A IA sugere prontamente uma biblioteca que a empresa deprecou em 2022 e inventa uma tabela de banco de dados que não existe.&lt;/p&gt;
+&lt;p&gt;A reação imediata é culpar a ferramenta: &lt;em&gt;&amp;ldquo;Essa IA é burra. Ela alucina demais.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Mas a realidade é mais dura. A IA é um espelho da sua base de conhecimento. Se ela &amp;ldquo;alucina&amp;rdquo;, é muitas vezes porque ela leu a sua documentação, que pode não estar tão atualizada, ou aprendeu com o código legado que ainda vive no repositório.&lt;/p&gt;</description></item><item><title>IA como Alavanca (Parte 4 de 7): Por que Construir a 'Coisa Errada' Mais Rápido é o Maior Risco da IA</title><link>https://cmxo.tech/blog/ia-como-alavanca-por-que-construir-a-coisa-errada-mais-rapido-e-o-maior-risco-da-ia/</link><pubDate>Thu, 04 Dec 2025 10:10:43 +0300</pubDate><guid>https://cmxo.tech/blog/ia-como-alavanca-por-que-construir-a-coisa-errada-mais-rapido-e-o-maior-risco-da-ia/</guid><description>&lt;h2 id="a-armadilha-da-fábrica-de-features-turbinada"&gt;A Armadilha da &amp;ldquo;Fábrica de Features&amp;rdquo; Turbinada&lt;/h2&gt;
+&lt;p&gt;Com a chegada dos assistentes de código baseados em IA, a barreira para criar software caiu drasticamente. Hoje, é trivial gerar novas &lt;em&gt;features&lt;/em&gt;, telas inteiras e APIs em tempo recorde. O sentimento imediato é de euforia: &amp;ldquo;Estamos entregando 50% mais rápido!&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Mas, se você olhar para os ponteiros do negócio — retenção, &lt;em&gt;churn&lt;/em&gt;, receita — eles podem estar estagnados.&lt;/p&gt;
+&lt;p&gt;Este é o perigo da &amp;ldquo;Fábrica de Features&amp;rdquo; turbinada pela IA. A tecnologia é um motor potente, mas o &lt;strong&gt;Foco no Usuário&lt;/strong&gt; é o volante. Se você der um motor de Fórmula 1 para um time que não sabe para onde está indo, eles não vão chegar ao pódio mais rápido; eles vão bater no muro mais rápido.&lt;/p&gt;</description></item><item><title>IA como Alavanca (Parte 3 de 7): Construindo "Golden Paths" para a IA (Mesmo se você vive em um Monolito)</title><link>https://cmxo.tech/blog/ia-como-alavanca-construindo-caminhos-para-a-ia-mesmo-se-voce-vive-em-um-monolito/</link><pubDate>Mon, 24 Nov 2025 08:56:41 +0300</pubDate><guid>https://cmxo.tech/blog/ia-como-alavanca-construindo-caminhos-para-a-ia-mesmo-se-voce-vive-em-um-monolito/</guid><description>&lt;h2 id="o-mito-da-arquitetura-perfeita"&gt;O Mito da &amp;ldquo;Arquitetura Perfeita&amp;rdquo;&lt;/h2&gt;
+&lt;p&gt;Se você lidera uma startup em crescimento, provavelmente vive uma realidade distante dos &lt;em&gt;cases&lt;/em&gt; de sucesso do Vale do Silício, ou até das terras tupiniquins. Você não tem uma arquitetura de microsserviços imaculada rodando em Kubernetes perfeitamente orquestrados.&lt;/p&gt;
+&lt;p&gt;Você tem um &amp;ldquo;Monolito Heroico&amp;rdquo; — talvez em Rails, Django ou Node — que cresceu rápido demais. Ele funciona e paga as contas, mas é difícil de configurar, lento para fazer &lt;em&gt;deploy&lt;/em&gt; e assustador para novos desenvolvedores.&lt;/p&gt;</description></item><item><title>IA como Alavanca (Parte 2 de 7): Domando a Velocidade da IA com a Disciplina de Pequenos Lotes</title><link>https://cmxo.tech/blog/ia-como-alavanca-domando-a-velocidade-da-ia-com-a-disciplina-de-pequenos-lotes/</link><pubDate>Thu, 13 Nov 2025 10:15:22 +0300</pubDate><guid>https://cmxo.tech/blog/ia-como-alavanca-domando-a-velocidade-da-ia-com-a-disciplina-de-pequenos-lotes/</guid><description>&lt;h2 id="o-paradoxo-do-pr-gigante"&gt;O Paradoxo do &amp;ldquo;PR Gigante&amp;rdquo;&lt;/h2&gt;
+&lt;p&gt;Sua equipe adotou o GitHub Copilot ou outra ferramenta de IA. O &lt;em&gt;feeling&lt;/em&gt; é ótimo: o código está sendo escrito 30% mais rápido. Mas, ao olhar para os &lt;em&gt;dashboards&lt;/em&gt;, você, como CTO ou Head of Engineering, percebe uma dura realidade: o &lt;em&gt;cycle time&lt;/em&gt; (tempo da ideia à produção) não diminuiu.&lt;/p&gt;
+&lt;p&gt;A equipe de engenharia está afogada em &lt;em&gt;Pull Requests&lt;/em&gt; (PRs) gigantescos. A IA facilita a geração de um &lt;em&gt;volume&lt;/em&gt; enorme de código de uma só vez. Além disso, &lt;em&gt;prompts&lt;/em&gt; abertos ou mal definidos (&amp;ldquo;crie a funcionalidade X&amp;rdquo;) geram código desnecessário, verboso ou complexo, inflando ainda mais os PRs.&lt;/p&gt;</description></item><item><title>IA como Alavanca (Parte 1 de 7): O Guia Prático para uma Política de IA Clara e Comunicada</title><link>https://cmxo.tech/blog/ia-como-alavanca-o-guia-pr%C3%A1tico-para-uma-pol%C3%ADtica-de-ia-clara-e-comunicada/</link><pubDate>Tue, 04 Nov 2025 09:01:22 +0300</pubDate><guid>https://cmxo.tech/blog/ia-como-alavanca-o-guia-pr%C3%A1tico-para-uma-pol%C3%ADtica-de-ia-clara-e-comunicada/</guid><description>&lt;p&gt;Como líder de tecnologia, você provavelmente vive um dilema diário. Seu CEO e o time de produto estão (corretamente) pressionando pelo uso de IA para acelerar a inovação. Ao mesmo tempo, sua equipe de engenharia está operando em um de dois extremos:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;O &amp;ldquo;Velho Oeste&amp;rdquo;:&lt;/strong&gt; Usando ferramentas de IA pessoais, gratuitas e não gerenciadas, colando código proprietário em LLMs públicos e criando um passivo de segurança e compliance gigantesco.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A &amp;ldquo;Paralisia&amp;rdquo;:&lt;/strong&gt; Com tanto medo de fazer algo errado (e sem diretrizes claras), a equipe evita as ferramentas, perdendo os ganhos de produtividade que seus concorrentes já estão capturando.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Em ambos os casos, o resultado é o mesmo: &lt;strong&gt;atrito&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>DORA 2025 e IA: Lições para Líderes Usarem IA como Alavanca (e Não Acelerador de Caos)</title><link>https://cmxo.tech/blog/dora-e-ia-licoes-para-lideres-usarem-ia-como-alavanca-e-nao-acelerador-de-caos/</link><pubDate>Wed, 29 Oct 2025 14:11:52 +0300</pubDate><guid>https://cmxo.tech/blog/dora-e-ia-licoes-para-lideres-usarem-ia-como-alavanca-e-nao-acelerador-de-caos/</guid><description>&lt;h2 id="1-introdução-a-era-da-ia-chegou-e-o-dora-tem-o-mapa"&gt;1. Introdução: A Era da IA Chegou (e o DORA Tem o Mapa)&lt;/h2&gt;
+&lt;p&gt;A inteligência artificial deixou de ser promessa e virou pressão. Como líder de uma startup ou PME, você provavelmente sente a urgência: &amp;ldquo;Precisamos usar IA para não ficar para trás&amp;rdquo;. Mas, em meio ao &lt;em&gt;hype&lt;/em&gt;, como saber se você está investindo em uma revolução ou apenas acelerando em direção ao caos?&lt;/p&gt;
+&lt;p&gt;Felizmente, temos uma bússola confiável: a pesquisa DORA (DevOps Research and Assessment). &lt;cite&gt;Por mais de uma década, o DORA tem sido o padrão-ouro para entender o que realmente impulsiona a performance em times de tecnologia, baseado em dados de dezenas de milhares de profissionais globalmente&lt;/cite&gt;.&lt;/p&gt;</description></item><item><title>Sua empresa travou na escala? Quando (e por que) contratar um CTO as a Service</title><link>https://cmxo.tech/blog/sua-empresa-travou-na-escala-quando-e-por-que-contratar-um-cto-as-a-service/</link><pubDate>Mon, 27 Oct 2025 10:16:14 +0300</pubDate><guid>https://cmxo.tech/blog/sua-empresa-travou-na-escala-quando-e-por-que-contratar-um-cto-as-a-service/</guid><description>&lt;h2 id="1-introdução-o-motor-começou-a-falhar"&gt;1. Introdução: O Motor Começou a Falhar&lt;/h2&gt;
+&lt;p&gt;No início, tudo era velocidade. Ideias se transformavam em código, e o produto evoluía diariamente. Mas, de repente, algo mudou. O sucesso inicial trouxe complexidade. O que antes era um barco ágil agora parece um transatlântico difícil de manobrar.&lt;/p&gt;
+&lt;p&gt;Se você é o CEO, Fundador ou o líder responsável pelo negócio, você sente isso na pele. As reuniões sobre tecnologia ficaram mais longas. As entregas, mais lentas. Aquele sentimento de tração constante foi substituído por uma frustração recorrente.&lt;/p&gt;</description></item><item><title>Agendamento Confirmado</title><link>https://cmxo.tech/agendamento-confirmado/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cmxo.tech/agendamento-confirmado/</guid><description/></item><item><title>Cristian Medeiros - CTO as a Service para Startups, Scale-ups e PMEs - Contato</title><link>https://cmxo.tech/contato/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cmxo.tech/contato/</guid><description/></item><item><title>Diagnóstico Estratégico</title><link>https://cmxo.tech/diagnostico/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cmxo.tech/diagnostico/</guid><description/></item><item><title>Serviços oferecidos por Cristian Medeiros como CTO as a Service para Startups, Scale-ups e PMEs - Serviços</title><link>https://cmxo.tech/servicos/conselheiro-tecnico/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cmxo.tech/servicos/conselheiro-tecnico/</guid><description/></item><item><title>Serviços oferecidos por Cristian Medeiros como CTO as a Service para Startups, Scale-ups e PMEs - Serviços</title><link>https://cmxo.tech/servicos/conselheiro-tecnologia/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cmxo.tech/servicos/conselheiro-tecnologia/</guid><description/></item><item><title>Serviços oferecidos por Cristian Medeiros como CTO as a Service para Startups, Scale-ups e PMEs - Serviços</title><link>https://cmxo.tech/servicos/cto-as-a-service/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cmxo.tech/servicos/cto-as-a-service/</guid><description/></item><item><title>Serviços oferecidos por Cristian Medeiros como CTO as a Service para Startups, Scale-ups e PMEs - Serviços</title><link>https://cmxo.tech/servicos/cto-interino/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cmxo.tech/servicos/cto-interino/</guid><description/></item><item><title>Serviços oferecidos por Cristian Medeiros como CTO as a Service para Startups, Scale-ups e PMEs - Serviços</title><link>https://cmxo.tech/servicos/factional-cto/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cmxo.tech/servicos/factional-cto/</guid><description/></item><item><title>Serviços oferecidos por Cristian Medeiros como CTO as a Service para Startups, Scale-ups e PMEs - Serviços</title><link>https://cmxo.tech/servicos/interim-cto/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cmxo.tech/servicos/interim-cto/</guid><description/></item><item><title>Serviços oferecidos por Cristian Medeiros como CTO as a Service para Startups, Scale-ups e PMEs - Serviços</title><link>https://cmxo.tech/servicos/tech-advisor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cmxo.tech/servicos/tech-advisor/</guid><description/></item><item><title>Sobre Cristian Medeiros | Liderança Técnica com Experiência em iFood, Olist e Dafiti - CTO as a Service para Startups, Scale-ups e PMEs - Sobre</title><link>https://cmxo.tech/sobre/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cmxo.tech/sobre/</guid><description/></item></channel></rss>
