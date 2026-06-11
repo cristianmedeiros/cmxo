@@ -20,8 +20,6 @@ categories:
 
 ---
 
-# IA como Alavanca (Parte 7 de 7): Métricas e ROI — Como Provar que a IA Está Dando Lucro (e Não Apenas Despesa)
-
 ## Introdução: O Fim da Lua de Mel com o Hype
 
 Até ontem, bastava colocar a palavra "IA" em uma apresentação de slides para conseguir orçamento. Os comitês executivos e conselhos de administração liberavam verba para ferramentas de IA Generativa pelo simples medo de ficarem para trás (*FOMO - Fear Of Missing Out*).

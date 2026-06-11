@@ -18,8 +18,6 @@ categories:
 - IA
 ---
 
-# IA como Alavanca (Parte 6 de 7): A Psicologia da IA – De Ameaça Silenciosa a Copiloto de Confiança
-
 ## Introdução: O Elefante na Sala
 
 Você liberou o orçamento, comprou as licenças do GitHub Copilot ou do Cursor para toda a equipe de engenharia, fez um workshop de *prompt engineering* e sentou para esperar o aumento mágico de produtividade.

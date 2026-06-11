@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eficiência Operacional on Cristian Medeiros - CTO as a Service</title>
+    <link>http://localhost:1313/categories/efici%C3%AAncia-operacional/</link>
+    <description>Recent content in Eficiência Operacional on Cristian Medeiros - CTO as a Service</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Jun 2026 10:15:43 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/efici%C3%AAncia-operacional/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>No ombro de gigantes: por que sua IA precisa de um harness (e de uma ontologia)</title>
+      <link>http://localhost:1313/blog/no-ombro-de-gigantes-por-que-sua-ia-precisa-de-um-harness-e-de-uma-ontologia/</link>
+      <pubDate>Thu, 11 Jun 2026 10:15:43 +0300</pubDate>
+      <guid>http://localhost:1313/blog/no-ombro-de-gigantes-por-que-sua-ia-precisa-de-um-harness-e-de-uma-ontologia/</guid>
+      <description>&lt;h1 id=&#34;no-ombro-de-gigantes-por-que-sua-ia-precisa-de-um-harness-e-de-uma-ontologia&#34;&gt;No ombro de gigantes: por que sua IA precisa de um harness (e de uma ontologia)&lt;/h1&gt;&#xA;&lt;p&gt;Todo mundo conhece a famosa frase de Isaac Newton (é do Newton, pesquisei :p) sobre enxergar mais longe por estar sobre os ombros de gigantes. Ele sabia que não precisava reinventar a física do zero; bastava construir em cima do que já estava validado.&lt;/p&gt;&#xA;&lt;p&gt;O problema é que a maioria das empresas hoje faz exatamente o oposto com a inteligência artificial.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
