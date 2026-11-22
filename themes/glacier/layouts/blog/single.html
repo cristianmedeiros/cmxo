@@ -23,7 +23,7 @@
 		<article class="post-item">
             {{ if eq .Params.format "image" }}
               <div class="image-box">
-                  <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" />1
+                  <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" />
               </div>
             {{ end }}
 			{{ if eq .Params.format "quote" }}
@@ -102,28 +102,10 @@
                 {{ .Content }}
             </div>
         <div class="feature-item">
-          <i class="fas fa-calendar-check"></i>
+          <i class="fa-solid fa-circle-info"></i>
           <div class="feature-text">
-            <strong>Agende uma Reunião</strong>
-            <p>Pronto para conversar? Reserve um horário na minha agenda.<br><br>
-            <!-- Google Calendar Appointment Scheduling begin -->
-            <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-            <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
-            <script>
-            (function() {
-              var target = document.currentScript;
-              window.addEventListener('load', function() {
-                calendar.schedulingButton.load({
-                  url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ3j7y7vVhed1_wkz8P58KZZdiqj3jxlkK8aSkqEbHUOVZJqpmlRa6Ackht4SFF3LymuPyu_ss7b?gv=true',
-                  color: '#000000',
-                  label: 'Ver minha agenda',
-                  target,
-                });
-              });
-            })();
-            </script>
-            <!-- end Google Calendar Appointment Scheduling -->
-            </p>
+            <strong>Novo capítulo: Tessa &amp; cmedeiros.dev</strong>
+            <p>A CM-XO está inativa como operação independente e passei a atuar na <a href="https://www.tessatalent.com/" target="_blank" rel="noopener noreferrer"><strong>Tessa</strong></a>, indicada como fornecedora de serviços. Novos conteúdos e artigos passam a ser publicados exclusivamente em <a href="https://cmedeiros.dev" target="_blank" rel="noopener noreferrer"><strong>cmedeiros.dev</strong></a>.</p>
           </div>
         </div>
       <div class="footer-post">

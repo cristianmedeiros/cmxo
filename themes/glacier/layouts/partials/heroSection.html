@@ -1,17 +1,32 @@
-{{/* layouts/partials/hero.html */}}
-{{ with.Site.Data.home.hero }}
-{{ if.enable }}
-<section class="hero-section" style="background-image: url('{{.background_image | absURL }}');">
+{{/* layouts/partials/heroSection.html */}}
+{{ with .Site.Data.home.hero }}
+{{ if .enable }}
+<section class="hero-section" style="background-image: url('{{ .background_image | absURL }}');">
     <div class="hero-overlay"></div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-7 col-md-9">
+            <div class="col-lg-8 col-md-10">
                 <div class="hero-content">
-                    <h1 class="hero-title">{{.title | safeHTML }}</h1>
-                    <p class="hero-subtitle">{{.subtitle | safeHTML }}</p>
-                    {{ if.button.enable }}
-                    <a href="{{.button.link | absURL }}" class="btn btn-dark hero-button">{{.button.label }}</a>
-                    {{ end }}
+                    <h1 class="hero-title">{{ .title | safeHTML }}</h1>
+                    <p class="hero-subtitle">{{ .subtitle | safeHTML }}</p>
+                    <div class="hero-actions">
+                        {{ if .button.enable }}
+                        <a href="{{ if .button.external }}{{ .button.link }}{{ else }}{{ .button.link | absURL }}{{ end }}"
+                           class="btn btn-dark hero-button"
+                           {{ if .button.external }}target="_blank" rel="noopener noreferrer"{{ end }}>
+                           {{ .button.label }}
+                        </a>
+                        {{ end }}
+                        {{ with .secondary_button }}
+                        {{ if .enable }}
+                        <a href="{{ if .external }}{{ .link }}{{ else }}{{ .link | absURL }}{{ end }}"
+                           class="btn btn-outline-dark hero-button hero-button-secondary"
+                           {{ if .external }}target="_blank" rel="noopener noreferrer"{{ end }}>
+                           {{ .label }}
+                        </a>
+                        {{ end }}
+                        {{ end }}
+                    </div>
                 </div>
             </div>
         </div>

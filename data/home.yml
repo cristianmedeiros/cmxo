@@ -98,10 +98,16 @@ content_slider:
 
 hero:
   enable: true
-  title: "TECNOLOGIA COMO ALAVANCA ESTRATÉGICA."
-  subtitle: "Liderança técnica sob demanda focada em criar vantagens competitivas duradouras. Minha missão é construir a tecnologia que resolve problemas de forma definitiva: sistemas que automatizam, processos que simplificam e ferramentas que potencializam o time a dar o seu melhor."
+  title: "UM NOVO CAPÍTULO:<br>AGORA NA TESSA."
+  subtitle: "Passei a atuar na <strong>Tessa</strong> e, com isso, a <strong>CM-XO</strong> está inativa como operação independente.<br><br>Se a sua empresa busca serviços de tecnologia e liderança técnica, indico a <strong>Tessa</strong> como fornecedora de serviço. Para conhecer minha trajetória, acesse a página <a href=\"/sobre/\">Sobre</a>; novos artigos e conteúdos passam a ser publicados apenas em <a href=\"https://cmedeiros.dev\" target=\"_blank\" rel=\"noopener noreferrer\">cmedeiros.dev</a>."
   button:
     enable: true
-    label: "CONHEÇA OS SERVIÇOS"
-    link: "/servicos" # Link para a página ou seção de serviços
-  background_image: "/images/image-home.png" # Coloque sua imagem de fundo na pasta /static/images/
+    label: "CONHEÇA A TESSA"
+    link: "https://www.tessatalent.com/"
+    external: true
+  secondary_button:
+    enable: true
+    label: "SOBRE"
+    link: "/sobre/"
+    external: false
+  background_image: "/images/image-home.png"

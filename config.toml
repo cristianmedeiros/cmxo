@@ -1,7 +1,7 @@
 # General Settings
-title = "Cristian Medeiros - CTO as a Service"
+title = "CM-XO | Cristian Medeiros"
 baseURL = "https://cmxo.tech/" #YOUR SITE URL
-languageCode = "en-us"
+languageCode = "pt-br"
 theme = "glacier"
 resourceDir = "resources"
 [pagination]
@@ -20,7 +20,7 @@ unsafe = true
 [menu]
 [[menu.main]]
   identifier = "home"
-  name = "Home"
+  name = "Início"
   url = ""
   weight = 1
 [[menu.main]]
@@ -29,26 +29,16 @@ unsafe = true
   url = "sobre/"
   weight = 2
 [[menu.main]]
-  identifier = "servicos"
-  name = "Serviços"
-  url = "servicos/"
-  weight = 3  
-[[menu.main]]
   identifier = "blog"
   name = "Blog"
   url = "blog/"
-  weight = 4
-[[menu.main]]
-  identifier = "contact"
-  name = "Contato"
-  url = "contato/"
-  weight = 5
+  weight = 3
 
 # Main Settings
 [params]
 defaultLogo = "CM eXtended Office"
 defaultKeywords = ["CTO as a Service", "Fractional CTO", "Interim CTO", "Consultor de desenvolvimento", "Consultor de tecnologia", "CTO Interino", "CTO Fracionado"]
-defaultDescription = "Glacier - Clean & Minimal Portfolio Hugo Theme"
+defaultDescription = "A CM-XO está inativa como operação independente. Cristian Medeiros agora atua na Tessa (tessatalent.com) e publica novos conteúdos em cmedeiros.dev."
 dateFormat = "January 2, 2006"
 authorName = "Cristian Medeiros"
 disqusComments = "" #YOUR DISQUS COMMENTS SHORTNAME
@@ -103,11 +93,19 @@ slug = "illustration"
 
 # Footer Settings
 [params.footer]
-copyright = "CM-XO © 2025."
+copyright = "CM-XO © 2026."
 
 # Social Settings
 [[params.social]]
-title = "Linkedin"
+title = "Tessa"
+url = "https://www.tessatalent.com/"
+
+[[params.social]]
+title = "cmedeiros.dev"
+url = "https://cmedeiros.dev"
+
+[[params.social]]
+title = "LinkedIn"
 url = "https://www.linkedin.com/in/crisdevbr/"
 
 

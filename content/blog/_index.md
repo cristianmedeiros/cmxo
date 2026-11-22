@@ -1,7 +1,7 @@
 ---
-title: Cristian Medeiros - CTO as a Service para Startups, Scale-ups e PMEs - Blog
+title: CM-XO — Arquivo do Blog
 builder: true
-description: "Em breve: o blog da CM-XO. Acesse playbooks práticos sobre como escalar times de engenharia, otimizar custos e alinhar tecnologia ao negócio, baseados em 25 anos de experiência."
+description: "Arquivo de artigos publicados na CM-XO. Novos conteúdos estão sendo publicados exclusivamente em cmedeiros.dev."
 
 # Configuration for sections
 
